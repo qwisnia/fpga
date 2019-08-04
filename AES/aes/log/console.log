@@ -1,0 +1,1973 @@
+# Design: Design aes already active.
+# Design: Warning: Library SPARTAN3 required for the selected device family has not been installed.
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: Flow Manager: Not Defined
+# Design: Error: Cannot rename folder "Folder 1" to "TestBench"
+# Design: 14:22, 24 czerwca 2018
+# Design: Opening design "c:\My_Designs\AES\xilinxcorelib\xilinxcorelib.adf"
+runscript -do "c:\My_Designs\AES\aes\src\aes_compile.do"
+acom "$dsn/src/blk_mem_gen_v4_3.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\blk_mem_gen_v4_3.vhd
+# Compile Entity "blk_mem_gen_v4_3"
+# Compile Architecture "blk_mem_gen_v4_3_a" of Entity "blk_mem_gen_v4_3"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom "$dsn/src/common_pkg.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\common_pkg.vhd
+# Compile Package "common"
+# Compile Package Body "common"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/SBox.vhd 
+acom "$dsn/src/AddRoundKey.vhd
+# Compile...
+acom "$dsn/src/KeySchedule.vhd
+acom "$dsn/src/MixColumns.vhd
+# Compile...
+acom "$dsn/src/ShiftRows.vhd
+acom "$dsn/src/aes.vhd"
+# Error: missing "
+# Error: DO_001 in file c:\My_Designs\AES\aes\src\aes_compile.do line 9
+# Error: Cannot run c:\My_Designs\AES\aes\src\aes_compile.do
+runscript -do "c:\My_Designs\AES\aes\src\aes_compile.do"
+acom "$dsn/src/blk_mem_gen_v4_3.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\blk_mem_gen_v4_3.vhd
+# Compile Entity "blk_mem_gen_v4_3"
+# Compile Architecture "blk_mem_gen_v4_3_a" of Entity "blk_mem_gen_v4_3"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom "$dsn/src/common_pkg.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\common_pkg.vhd
+# Compile Package "common"
+# Compile Package Body "common"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/SBox.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\SBox.vhd
+# Compile Entity "SBox"
+# Error: COMP96_0078: SBox.vhd : (30, 18): Unknown identifier "state_t".
+# Error: COMP96_0064: SBox.vhd : (30, 18): Unknown type.
+# Error: COMP96_0078: SBox.vhd : (31, 18): Unknown identifier "state_t".
+# Error: COMP96_0064: SBox.vhd : (31, 18): Unknown type.
+# Compile Architecture "xilinx_8_dual_port_rom" of Entity "SBox"
+# Error: COMP96_0056: SBox.vhd : (35, 1): Cannot find referenced entity declaration "SBox".
+# Compile Architecture "xilinx_4_dual_port_rom" of Entity "SBox"
+# Error: COMP96_0056: SBox.vhd : (68, 1): Cannot find referenced entity declaration "SBox".
+# Compile Architecture "xilinx_2_dual_port_rom" of Entity "SBox"
+# Error: COMP96_0056: SBox.vhd : (124, 1): Cannot find referenced entity declaration "SBox".
+# Compile Architecture "xilinx_1_dual_port_rom" of Entity "SBox"
+# Error: COMP96_0056: SBox.vhd : (194, 1): Cannot find referenced entity declaration "SBox".
+# Compile failure 8 Errors 0 Warnings  Analysis time :  16.0 [ms]
+# Error: DO_001 in file c:\My_Designs\AES\aes\src\aes_compile.do line 3
+# Error: Cannot run c:\My_Designs\AES\aes\src\aes_compile.do
+acom -O3 -work aes -2002  $dsn/src/SBox.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\SBox.vhd
+# Compile Entity "SBox"
+# Compile Architecture "xilinx_8_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_4_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_2_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_1_dual_port_rom" of Entity "SBox"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+runscript -do "c:\My_Designs\AES\aes\src\aes_compile.do"
+acom "$dsn/src/blk_mem_gen_v4_3.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\blk_mem_gen_v4_3.vhd
+# Compile Entity "blk_mem_gen_v4_3"
+# Compile Architecture "blk_mem_gen_v4_3_a" of Entity "blk_mem_gen_v4_3"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom "$dsn/src/common_pkg.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\common_pkg.vhd
+# Compile Package "common"
+# Compile Package Body "common"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/SBox.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\SBox.vhd
+# Compile Entity "SBox"
+# Compile Architecture "xilinx_8_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_4_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_2_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_1_dual_port_rom" of Entity "SBox"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/AddRoundKey.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\AddRoundKey.vhd
+# Compile Entity "AddRoundKey"
+# Error: COMP96_0078: AddRoundKey.vhd : (30, 18): Unknown identifier "state_t".
+# Error: COMP96_0064: AddRoundKey.vhd : (30, 18): Unknown type.
+# Error: COMP96_0078: AddRoundKey.vhd : (31, 18): Unknown identifier "key_t".
+# Error: COMP96_0064: AddRoundKey.vhd : (31, 18): Unknown type.
+# Error: COMP96_0078: AddRoundKey.vhd : (32, 18): Unknown identifier "state_t".
+# Error: COMP96_0064: AddRoundKey.vhd : (32, 18): Unknown type.
+# Compile Architecture "behavioral" of Entity "AddRoundKey"
+# Error: COMP96_0056: AddRoundKey.vhd : (36, 1): Cannot find referenced entity declaration "AddRoundKey".
+# Compile failure 7 Errors 0 Warnings  Analysis time :  0.0 [ms]
+# Error: DO_001 in file c:\My_Designs\AES\aes\src\aes_compile.do line 4
+# Error: Cannot run c:\My_Designs\AES\aes\src\aes_compile.do
+runscript -do "c:\My_Designs\AES\aes\src\aes_compile.do"
+acom "$dsn/src/blk_mem_gen_v4_3.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\blk_mem_gen_v4_3.vhd
+# Compile Entity "blk_mem_gen_v4_3"
+# Compile Architecture "blk_mem_gen_v4_3_a" of Entity "blk_mem_gen_v4_3"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom "$dsn/src/common_pkg.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\common_pkg.vhd
+# Compile Package "common"
+# Compile Package Body "common"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/SBox.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\SBox.vhd
+# Compile Entity "SBox"
+# Compile Architecture "xilinx_8_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_4_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_2_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_1_dual_port_rom" of Entity "SBox"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/AddRoundKey.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\AddRoundKey.vhd
+# Compile Entity "AddRoundKey"
+# Compile Architecture "behavioral" of Entity "AddRoundKey"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/KeySchedule.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\KeySchedule.vhd
+# Compile Entity "KeySchedule"
+# Error: COMP96_0078: KeySchedule.vhd : (30, 18): Unknown identifier "state_t".
+# Error: COMP96_0064: KeySchedule.vhd : (30, 18): Unknown type.
+# Error: COMP96_0078: KeySchedule.vhd : (32, 18): Unknown identifier "state_t".
+# Error: COMP96_0064: KeySchedule.vhd : (32, 18): Unknown type.
+# Compile Architecture "xillinx_2_dual_port_rom" of Entity "KeySchedule"
+# Error: COMP96_0056: KeySchedule.vhd : (36, 1): Cannot find referenced entity declaration "KeySchedule".
+# Compile Architecture "external_sbox" of Entity "KeySchedule"
+# Error: COMP96_0056: KeySchedule.vhd : (98, 1): Cannot find referenced entity declaration "KeySchedule".
+# Compile failure 6 Errors 0 Warnings  Analysis time :  15.0 [ms]
+# Error: DO_001 in file c:\My_Designs\AES\aes\src\aes_compile.do line 5
+# Error: Cannot run c:\My_Designs\AES\aes\src\aes_compile.do
+runscript -do "c:\My_Designs\AES\aes\src\aes_compile.do"
+acom "$dsn/src/blk_mem_gen_v4_3.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\blk_mem_gen_v4_3.vhd
+# Compile Entity "blk_mem_gen_v4_3"
+# Compile Architecture "blk_mem_gen_v4_3_a" of Entity "blk_mem_gen_v4_3"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom "$dsn/src/common_pkg.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\common_pkg.vhd
+# Compile Package "common"
+# Compile Package Body "common"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/SBox.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\SBox.vhd
+# Compile Entity "SBox"
+# Compile Architecture "xilinx_8_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_4_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_2_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_1_dual_port_rom" of Entity "SBox"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/AddRoundKey.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\AddRoundKey.vhd
+# Compile Entity "AddRoundKey"
+# Compile Architecture "behavioral" of Entity "AddRoundKey"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/KeySchedule.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\KeySchedule.vhd
+# Compile Entity "KeySchedule"
+# Error: COMP96_0055: KeySchedule.vhd : (24, 8): Cannot find referenced context element.
+# Error: COMP96_0078: KeySchedule.vhd : (30, 18): Unknown identifier "state_t".
+# Error: COMP96_0064: KeySchedule.vhd : (30, 18): Unknown type.
+# Error: COMP96_0078: KeySchedule.vhd : (32, 18): Unknown identifier "state_t".
+# Error: COMP96_0064: KeySchedule.vhd : (32, 18): Unknown type.
+# Compile Architecture "xillinx_2_dual_port_rom" of Entity "KeySchedule"
+# Error: COMP96_0056: KeySchedule.vhd : (36, 1): Cannot find referenced entity declaration "KeySchedule".
+# Compile Architecture "external_sbox" of Entity "KeySchedule"
+# Error: COMP96_0056: KeySchedule.vhd : (98, 1): Cannot find referenced entity declaration "KeySchedule".
+# Compile failure 7 Errors 0 Warnings  Analysis time :  15.0 [ms]
+# Error: DO_001 in file c:\My_Designs\AES\aes\src\aes_compile.do line 5
+# Error: Cannot run c:\My_Designs\AES\aes\src\aes_compile.do
+runscript -do "c:\My_Designs\AES\aes\src\aes_compile.do"
+acom "$dsn/src/blk_mem_gen_v4_3.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\blk_mem_gen_v4_3.vhd
+# Compile Entity "blk_mem_gen_v4_3"
+# Compile Architecture "blk_mem_gen_v4_3_a" of Entity "blk_mem_gen_v4_3"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom "$dsn/src/common_pkg.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\common_pkg.vhd
+# Compile Package "common"
+# Compile Package Body "common"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/SBox.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\SBox.vhd
+# Compile Entity "SBox"
+# Compile Architecture "xilinx_8_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_4_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_2_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_1_dual_port_rom" of Entity "SBox"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/AddRoundKey.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\AddRoundKey.vhd
+# Compile Entity "AddRoundKey"
+# Compile Architecture "behavioral" of Entity "AddRoundKey"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/KeySchedule.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\KeySchedule.vhd
+# Compile Entity "KeySchedule"
+# Compile Architecture "xillinx_2_dual_port_rom" of Entity "KeySchedule"
+# Compile Architecture "external_sbox" of Entity "KeySchedule"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/MixColumns.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\MixColumns.vhd
+# Compile Entity "MixColumns"
+# Error: COMP96_0078: MixColumns.vhd : (30, 18): Unknown identifier "state_t".
+# Error: COMP96_0064: MixColumns.vhd : (30, 18): Unknown type.
+# Error: COMP96_0078: MixColumns.vhd : (31, 18): Unknown identifier "state_t".
+# Error: COMP96_0064: MixColumns.vhd : (31, 18): Unknown type.
+# Compile Architecture "behavioral_concurent" of Entity "MixColumns"
+# Error: COMP96_0056: MixColumns.vhd : (35, 1): Cannot find referenced entity declaration "MixColumns".
+# Compile failure 5 Errors 0 Warnings  Analysis time :  15.0 [ms]
+# Error: DO_001 in file c:\My_Designs\AES\aes\src\aes_compile.do line 6
+# Error: Cannot run c:\My_Designs\AES\aes\src\aes_compile.do
+runscript -do "c:\My_Designs\AES\aes\src\aes_compile.do"
+acom "$dsn/src/blk_mem_gen_v4_3.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\blk_mem_gen_v4_3.vhd
+# Compile Entity "blk_mem_gen_v4_3"
+# Compile Architecture "blk_mem_gen_v4_3_a" of Entity "blk_mem_gen_v4_3"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom "$dsn/src/common_pkg.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\common_pkg.vhd
+# Compile Package "common"
+# Compile Package Body "common"
+# Compile success 0 Errors 0 Warnings  Analysis time :  93.0 [ms]
+acom "$dsn/src/SBox.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\SBox.vhd
+# Compile Entity "SBox"
+# Compile Architecture "xilinx_8_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_4_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_2_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_1_dual_port_rom" of Entity "SBox"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/AddRoundKey.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\AddRoundKey.vhd
+# Compile Entity "AddRoundKey"
+# Compile Architecture "behavioral" of Entity "AddRoundKey"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/KeySchedule.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\KeySchedule.vhd
+# Compile Entity "KeySchedule"
+# Compile Architecture "xillinx_2_dual_port_rom" of Entity "KeySchedule"
+# Compile Architecture "external_sbox" of Entity "KeySchedule"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/MixColumns.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\MixColumns.vhd
+# Compile Entity "MixColumns"
+# Compile Architecture "behavioral_concurent" of Entity "MixColumns"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/ShiftRows.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\ShiftRows.vhd
+# Compile Entity "ShiftRows"
+# Error: COMP96_0078: ShiftRows.vhd : (30, 18): Unknown identifier "state_t".
+# Error: COMP96_0064: ShiftRows.vhd : (30, 18): Unknown type.
+# Error: COMP96_0078: ShiftRows.vhd : (31, 18): Unknown identifier "state_t".
+# Error: COMP96_0064: ShiftRows.vhd : (31, 18): Unknown type.
+# Compile Architecture "behavioral" of Entity "ShiftRows"
+# Error: COMP96_0056: ShiftRows.vhd : (35, 1): Cannot find referenced entity declaration "ShiftRows".
+# Compile failure 5 Errors 0 Warnings  Analysis time :  16.0 [ms]
+# Error: DO_001 in file c:\My_Designs\AES\aes\src\aes_compile.do line 7
+# Error: Cannot run c:\My_Designs\AES\aes\src\aes_compile.do
+runscript -do "c:\My_Designs\AES\aes\src\aes_compile.do"
+acom "$dsn/src/blk_mem_gen_v4_3.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\blk_mem_gen_v4_3.vhd
+# Compile Entity "blk_mem_gen_v4_3"
+# Compile Architecture "blk_mem_gen_v4_3_a" of Entity "blk_mem_gen_v4_3"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom "$dsn/src/common_pkg.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\common_pkg.vhd
+# Compile Package "common"
+# Compile Package Body "common"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/SBox.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\SBox.vhd
+# Compile Entity "SBox"
+# Compile Architecture "xilinx_8_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_4_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_2_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_1_dual_port_rom" of Entity "SBox"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/AddRoundKey.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\AddRoundKey.vhd
+# Compile Entity "AddRoundKey"
+# Compile Architecture "behavioral" of Entity "AddRoundKey"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom "$dsn/src/KeySchedule.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\KeySchedule.vhd
+# Compile Entity "KeySchedule"
+# Compile Architecture "xillinx_2_dual_port_rom" of Entity "KeySchedule"
+# Compile Architecture "external_sbox" of Entity "KeySchedule"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/MixColumns.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\MixColumns.vhd
+# Compile Entity "MixColumns"
+# Compile Architecture "behavioral_concurent" of Entity "MixColumns"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/ShiftRows.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\ShiftRows.vhd
+# Compile Entity "ShiftRows"
+# Compile Architecture "behavioral" of Entity "ShiftRows"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/aes.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\aes.vhd
+# Error: COMP96_0015: aes.vhd : (30, 1): ';' expected.
+# Error: COMP96_0016: aes.vhd : (30, 8): Design unit declaration expected.
+# Error: COMP96_0016: aes.vhd : (30, 12): Design unit declaration expected.
+# Compile Architecture "behavioral" of Entity "aes"
+# Error: COMP96_0056: aes.vhd : (42, 1): Cannot find referenced entity declaration "aes".
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.0 [ms]
+# Error: DO_001 in file c:\My_Designs\AES\aes\src\aes_compile.do line 8
+# Error: Cannot run c:\My_Designs\AES\aes\src\aes_compile.do
+runscript -do "c:\My_Designs\AES\aes\src\aes_compile.do"
+acom "$dsn/src/blk_mem_gen_v4_3.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\blk_mem_gen_v4_3.vhd
+# Compile Entity "blk_mem_gen_v4_3"
+# Compile Architecture "blk_mem_gen_v4_3_a" of Entity "blk_mem_gen_v4_3"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom "$dsn/src/common_pkg.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\common_pkg.vhd
+# Compile Package "common"
+# Compile Package Body "common"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/SBox.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\SBox.vhd
+# Compile Entity "SBox"
+# Compile Architecture "xilinx_8_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_4_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_2_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_1_dual_port_rom" of Entity "SBox"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/AddRoundKey.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\AddRoundKey.vhd
+# Compile Entity "AddRoundKey"
+# Compile Architecture "behavioral" of Entity "AddRoundKey"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/KeySchedule.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\KeySchedule.vhd
+# Compile Entity "KeySchedule"
+# Compile Architecture "xillinx_2_dual_port_rom" of Entity "KeySchedule"
+# Compile Architecture "external_sbox" of Entity "KeySchedule"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/MixColumns.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\MixColumns.vhd
+# Compile Entity "MixColumns"
+# Compile Architecture "behavioral_concurent" of Entity "MixColumns"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/ShiftRows.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\ShiftRows.vhd
+# Compile Entity "ShiftRows"
+# Compile Architecture "behavioral" of Entity "ShiftRows"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/aes.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\aes.vhd
+# Compile Entity "aes"
+# Compile Architecture "behavioral" of Entity "aes"
+# Error: COMP96_0270: aes.vhd : (104, 20): "AddRoundKey" is not a library or a package.
+# Error: COMP96_0270: aes.vhd : (107, 14): "SBox" is not a library or a package.
+# Error: COMP96_0270: aes.vhd : (110, 20): "ShiftRows" is not a library or a package.
+# Error: COMP96_0270: aes.vhd : (113, 20): "MixColumns" is not a library or a package.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  15.0 [ms]
+# Error: DO_001 in file c:\My_Designs\AES\aes\src\aes_compile.do line 8
+# Error: Cannot run c:\My_Designs\AES\aes\src\aes_compile.do
+runscript -do "c:\My_Designs\AES\aes\src\aes_compile.do"
+acom "$dsn/src/blk_mem_gen_v4_3.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\blk_mem_gen_v4_3.vhd
+# Compile Entity "blk_mem_gen_v4_3"
+# Compile Architecture "blk_mem_gen_v4_3_a" of Entity "blk_mem_gen_v4_3"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom "$dsn/src/common_pkg.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\common_pkg.vhd
+# Compile Package "common"
+# Compile Package Body "common"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/SBox.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\SBox.vhd
+# Compile Entity "SBox"
+# Compile Architecture "xilinx_8_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_4_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_2_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_1_dual_port_rom" of Entity "SBox"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/AddRoundKey.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\AddRoundKey.vhd
+# Compile Entity "AddRoundKey"
+# Compile Architecture "behavioral" of Entity "AddRoundKey"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/KeySchedule.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\KeySchedule.vhd
+# Compile Entity "KeySchedule"
+# Compile Architecture "xillinx_2_dual_port_rom" of Entity "KeySchedule"
+# Compile Architecture "external_sbox" of Entity "KeySchedule"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/MixColumns.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\MixColumns.vhd
+# Compile Entity "MixColumns"
+# Compile Architecture "behavioral_concurent" of Entity "MixColumns"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/ShiftRows.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\ShiftRows.vhd
+# Compile Entity "ShiftRows"
+# Compile Architecture "behavioral" of Entity "ShiftRows"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/aes.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\aes.vhd
+# Compile Entity "aes"
+# Compile Architecture "behavioral" of Entity "aes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+runscript -do "c:\My_Designs\AES\aes\src\TestBench\aes_TB_runtest.do"
+SetActiveLib -work
+comp -include "$dsn\src\aes_top.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\aes_top.vhd
+# Error: COMP96_0001: Cannot find source file "c:\My_Designs\AES\aes\src\aes_top.vhd".
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
+# Error: DO_001 in file c:\My_Designs\AES\aes\src\TestBench\aes_TB_runtest.do line 2
+# Error: Cannot run c:\My_Designs\AES\aes\src\TestBench\aes_TB_runtest.do
+runscript -do "c:\My_Designs\AES\aes\src\TestBench\aes_TB_runtest.do"
+SetActiveLib -work
+comp -include "$dsn\src\aes.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\aes.vhd
+# Compile Entity "aes"
+# Compile Architecture "behavioral" of Entity "aes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+comp -include "$dsn\src\TestBench\aes_TB.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\TestBench\aes_TB.vhd
+# Compile Entity "aes_tb"
+# Error: COMP96_0055: aes_TB.vhd : (2, 8): Cannot find referenced context element.
+# Compile Architecture "TB_ARCHITECTURE" of Entity "aes_tb"
+# Error: COMP96_0056: aes_TB.vhd : (11, 1): Cannot find referenced entity declaration "aes_tb".
+# Compile Configuration "TESTBENCH_FOR_aes"
+# Error: COMP96_0208: aes_TB.vhd : (81, 1): For a configuration of a given design entity, both the configuration declaration and the corresponding entity declaration must reside in the same library.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.0 [ms]
+# Error: DO_001 in file c:\My_Designs\AES\aes\src\TestBench\aes_TB_runtest.do line 3
+# Error: Cannot run c:\My_Designs\AES\aes\src\TestBench\aes_TB_runtest.do
+runscript -do "c:\My_Designs\AES\aes\src\TestBench\aes_TB_runtest.do"
+SetActiveLib -work
+comp -include "$dsn\src\aes.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\aes.vhd
+# Compile Entity "aes"
+# Compile Architecture "behavioral" of Entity "aes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+comp -include "$dsn\src\TestBench\aes_TB.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\TestBench\aes_TB.vhd
+# Compile Entity "aes_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "aes_tb"
+# Compile Configuration "TESTBENCH_FOR_aes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim +access +r TESTBENCH_FOR_aes 
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6861 kB (elbread=1026 elab2=5474 kernel=361 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\AES\aes\src\wave.asdb
+#  14:43, 24 czerwca 2018
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_aes
+wave 
+wave -noreg clk
+wave -noreg n_reset
+wave -noreg data_in
+wave -noreg key_in
+wave -noreg data_out
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\aes_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_aes 
+# 5 signal(s) traced.
+run 100 ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__0/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__0/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__1/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__1/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__2/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__2/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__3/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__3/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__4/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__4/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__5/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__5/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__6/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__6/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__7/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__7/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__0/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__0/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__1/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__1/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__2/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__2/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__3/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__3/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__4/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__4/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__5/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__5/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__6/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__6/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__7/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__7/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__0/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__0/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__1/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__1/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__2/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__2/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__3/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__3/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__4/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__4/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__5/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__5/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__6/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__6/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__7/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__7/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6861 kB (elbread=1026 elab2=5474 kernel=361 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\AES\aes\src\wave.asdb
+#  15:01, 24 czerwca 2018
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_aes
+# 1 signal(s) traced.
+run 100 ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__0/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__0/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__1/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__1/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__2/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__2/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__3/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__3/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__4/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__4/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__5/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__5/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__6/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__6/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__7/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__7/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__0/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__0/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__1/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__1/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__2/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__2/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__3/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__3/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__4/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__4/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__5/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__5/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__6/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__6/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__7/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__7/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__0/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__0/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__1/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__1/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__2/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__2/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__3/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__3/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__4/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__4/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__5/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__5/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__6/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__6/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__7/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__7/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: stopped at time: 100 ns
+acom "$dsn/src/blk_mem_gen_v4_3.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\blk_mem_gen_v4_3.vhd
+# Compile Entity "blk_mem_gen_v4_3"
+# Compile Architecture "blk_mem_gen_v4_3_a" of Entity "blk_mem_gen_v4_3"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom "$dsn/src/common_pkg.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\common_pkg.vhd
+# Compile Package "common"
+# Compile Package Body "common"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/SBox.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\SBox.vhd
+# Compile Entity "SBox"
+# Compile Architecture "xilinx_8_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_4_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_2_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_1_dual_port_rom" of Entity "SBox"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/AddRoundKey.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\AddRoundKey.vhd
+# Compile Entity "AddRoundKey"
+# Compile Architecture "behavioral" of Entity "AddRoundKey"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/KeySchedule.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\KeySchedule.vhd
+# Compile Entity "KeySchedule"
+# Compile Architecture "xillinx_2_dual_port_rom" of Entity "KeySchedule"
+# Compile Architecture "external_sbox" of Entity "KeySchedule"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/MixColumns.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\MixColumns.vhd
+# Compile Entity "MixColumns"
+# Compile Architecture "behavioral_concurent" of Entity "MixColumns"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/ShiftRows.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\ShiftRows.vhd
+# Compile Entity "ShiftRows"
+# Compile Architecture "behavioral" of Entity "ShiftRows"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/aes.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\aes.vhd
+# Compile Entity "aes"
+# Compile Architecture "behavioral" of Entity "aes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+SetActiveLib -work
+comp -include "$dsn\src\aes.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\aes.vhd
+# Compile Entity "aes"
+# Compile Architecture "behavioral" of Entity "aes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+comp -include "$dsn\src\TestBench\aes_TB.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\TestBench\aes_TB.vhd
+# Compile Entity "aes_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "aes_tb"
+# Compile Configuration "TESTBENCH_FOR_aes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim +access +r TESTBENCH_FOR_aes 
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6861 kB (elbread=1026 elab2=5474 kernel=361 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\AES\aes\src\wave.asdb
+#  15:03, 24 czerwca 2018
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_aes
+wave 
+wave -noreg clk
+wave -noreg n_reset
+wave -noreg data_in
+wave -noreg key_in
+wave -noreg data_out
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\aes_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_aes 
+# 5 signal(s) traced.
+# 1 signal(s) traced.
+run 100 ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__0/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__0/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__1/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__1/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__2/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__2/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__3/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__3/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__4/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__4/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__5/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__5/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__6/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__6/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__7/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__7/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__0/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__0/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__1/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__1/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__2/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__2/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__3/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__3/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__4/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__4/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__5/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__5/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__6/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__6/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__7/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__7/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__0/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__0/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__1/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__1/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__2/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__2/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__3/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__3/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__4/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__4/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__5/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__5/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__6/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__6/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__7/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__7/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: stopped at time: 100 ns
+# 1 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6861 kB (elbread=1026 elab2=5474 kernel=361 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\AES\aes\src\wave.asdb
+#  15:04, 24 czerwca 2018
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_aes
+run 100 ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__0/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__0/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__1/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__1/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__2/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__2/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__3/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__3/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__4/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__4/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__5/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__5/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__6/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__6/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__7/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__7/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__0/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__0/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__1/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__1/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__2/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__2/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__3/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__3/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__4/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__4/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__5/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__5/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__6/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__6/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__7/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__7/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__0/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__0/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__1/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__1/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__2/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__2/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__3/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__3/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__4/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__4/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__5/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__5/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__6/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__6/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__7/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__7/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: stopped at time: 100 ns
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6861 kB (elbread=1026 elab2=5474 kernel=361 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\AES\aes\src\wave.asdb
+#  15:05, 24 czerwca 2018
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_aes
+run 100 ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__0/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__0/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__1/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__1/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__2/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__2/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__3/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__3/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__4/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__4/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__5/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__5/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__6/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__6/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__7/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__7/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__0/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__0/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__1/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__1/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__2/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__2/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__3/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__3/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__4/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__4/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__5/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__5/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__6/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__6/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__7/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__7/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__0/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__0/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__1/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__1/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__2/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__2/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__3/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__3/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__4/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__4/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__5/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__5/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__6/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__6/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__7/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /UUT/U_SBOX/GEN_SBOX_ROM__7/ROM_MEMORY/U0/mem_module,  Process: line__1462.
+# KERNEL: stopped at time: 100 ns
+acom "$dsn/src/blk_mem_gen_v4_3.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\blk_mem_gen_v4_3.vhd
+# Compile Entity "blk_mem_gen_v4_3"
+# Compile Architecture "blk_mem_gen_v4_3_a" of Entity "blk_mem_gen_v4_3"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom "$dsn/src/common_pkg.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\common_pkg.vhd
+# Compile Package "common"
+# Compile Package Body "common"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom "$dsn/src/SBox.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\SBox.vhd
+# Compile Entity "SBox"
+# Compile Architecture "xilinx_8_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_4_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_2_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_1_dual_port_rom" of Entity "SBox"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/AddRoundKey.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\AddRoundKey.vhd
+# Compile Entity "AddRoundKey"
+# Compile Architecture "behavioral" of Entity "AddRoundKey"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/KeySchedule.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\KeySchedule.vhd
+# Compile Entity "KeySchedule"
+# Compile Architecture "xillinx_2_dual_port_rom" of Entity "KeySchedule"
+# Compile Architecture "external_sbox" of Entity "KeySchedule"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/MixColumns.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\MixColumns.vhd
+# Compile Entity "MixColumns"
+# Compile Architecture "behavioral_concurent" of Entity "MixColumns"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/ShiftRows.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\ShiftRows.vhd
+# Compile Entity "ShiftRows"
+# Compile Architecture "behavioral" of Entity "ShiftRows"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/aes.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\aes.vhd
+# Compile Entity "aes"
+# Compile Architecture "behavioral" of Entity "aes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+do aes_compile
+acom "$dsn/src/blk_mem_gen_v4_3.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\blk_mem_gen_v4_3.vhd
+# Compile Entity "blk_mem_gen_v4_3"
+# Compile Architecture "blk_mem_gen_v4_3_a" of Entity "blk_mem_gen_v4_3"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom "$dsn/src/common_pkg.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\common_pkg.vhd
+# Compile Package "common"
+# Compile Package Body "common"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/SBox.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\SBox.vhd
+# Compile Entity "SBox"
+# Compile Architecture "xilinx_8_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_4_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_2_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_1_dual_port_rom" of Entity "SBox"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/AddRoundKey.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\AddRoundKey.vhd
+# Compile Entity "AddRoundKey"
+# Compile Architecture "behavioral" of Entity "AddRoundKey"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/KeySchedule.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\KeySchedule.vhd
+# Compile Entity "KeySchedule"
+# Compile Architecture "xillinx_2_dual_port_rom" of Entity "KeySchedule"
+# Compile Architecture "external_sbox" of Entity "KeySchedule"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/MixColumns.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\MixColumns.vhd
+# Compile Entity "MixColumns"
+# Compile Architecture "behavioral_concurent" of Entity "MixColumns"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/ShiftRows.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\ShiftRows.vhd
+# Compile Entity "ShiftRows"
+# Compile Architecture "behavioral" of Entity "ShiftRows"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom "$dsn/src/aes.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\aes.vhd
+# Compile Entity "aes"
+# Compile Architecture "behavioral" of Entity "aes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+runscript -do "c:\My_Designs\AES\aes\src\TestBench\aes_TB_runtest.do"
+SetActiveLib -work
+do "$dsn\src\aes_compile.do" 
+acom "$dsn/src/blk_mem_gen_v4_3.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\blk_mem_gen_v4_3.vhd
+# Compile Entity "blk_mem_gen_v4_3"
+# Compile Architecture "blk_mem_gen_v4_3_a" of Entity "blk_mem_gen_v4_3"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom "$dsn/src/common_pkg.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\common_pkg.vhd
+# Compile Package "common"
+# Compile Package Body "common"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/SBox.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\SBox.vhd
+# Compile Entity "SBox"
+# Compile Architecture "xilinx_8_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_4_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_2_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_1_dual_port_rom" of Entity "SBox"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/AddRoundKey.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\AddRoundKey.vhd
+# Compile Entity "AddRoundKey"
+# Compile Architecture "behavioral" of Entity "AddRoundKey"
+# Compile success 0 Errors 0 Warnings  Analysis time :  93.0 [ms]
+acom "$dsn/src/KeySchedule.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\KeySchedule.vhd
+# Compile Entity "KeySchedule"
+# Compile Architecture "xillinx_2_dual_port_rom" of Entity "KeySchedule"
+# Compile Architecture "external_sbox" of Entity "KeySchedule"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/MixColumns.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\MixColumns.vhd
+# Compile Entity "MixColumns"
+# Compile Architecture "behavioral_concurent" of Entity "MixColumns"
+# Compile success 0 Errors 0 Warnings  Analysis time :  93.0 [ms]
+acom "$dsn/src/ShiftRows.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\ShiftRows.vhd
+# Compile Entity "ShiftRows"
+# Compile Architecture "behavioral" of Entity "ShiftRows"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom "$dsn/src/aes.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\aes.vhd
+# Compile Entity "aes"
+# Compile Architecture "behavioral" of Entity "aes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+comp -include "$dsn\src\TestBench\aes_TB.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\TestBench\aes_TB.vhd
+# Compile Entity "aes_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "aes_tb"
+# Compile Configuration "TESTBENCH_FOR_aes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim +access +r TESTBENCH_FOR_aes 
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6861 kB (elbread=1026 elab2=5474 kernel=361 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\AES\aes\src\wave.asdb
+#  15:46, 24 czerwca 2018
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_aes
+wave 
+wave -noreg clk
+wave -noreg n_reset
+wave -noreg data_in
+wave -noreg key_in
+wave -noreg data_out
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\aes_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_aes 
+# 5 signal(s) traced.
+acom -O3 -work aes -2002  $dsn/src/aes.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\aes.vhd
+# Compile Entity "aes"
+# Compile Architecture "behavioral" of Entity "aes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6861 kB (elbread=1026 elab2=5473 kernel=361 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\AES\aes\src\wave.asdb
+#  15:47, 24 czerwca 2018
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_aes
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6861 kB (elbread=1026 elab2=5473 kernel=361 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\AES\aes\src\wave.asdb
+#  15:47, 24 czerwca 2018
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_aes
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6861 kB (elbread=1026 elab2=5473 kernel=361 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\AES\aes\src\wave.asdb
+#  15:48, 24 czerwca 2018
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_aes
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+runscript -do "c:\My_Designs\AES\aes\src\TestBench\aes_TB_runtest.do"
+SetActiveLib -work
+do "$dsn\src\aes_compile.do" 
+acom "$dsn/src/blk_mem_gen_v4_3.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\blk_mem_gen_v4_3.vhd
+# Compile Entity "blk_mem_gen_v4_3"
+# Compile Architecture "blk_mem_gen_v4_3_a" of Entity "blk_mem_gen_v4_3"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom "$dsn/src/common_pkg.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\common_pkg.vhd
+# Compile Package "common"
+# Compile Package Body "common"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom "$dsn/src/SBox.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\SBox.vhd
+# Compile Entity "SBox"
+# Compile Architecture "xilinx_8_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_4_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_2_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_1_dual_port_rom" of Entity "SBox"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/AddRoundKey.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\AddRoundKey.vhd
+# Compile Entity "AddRoundKey"
+# Compile Architecture "behavioral" of Entity "AddRoundKey"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom "$dsn/src/KeySchedule.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\KeySchedule.vhd
+# Compile Entity "KeySchedule"
+# Compile Architecture "xillinx_2_dual_port_rom" of Entity "KeySchedule"
+# Compile Architecture "external_sbox" of Entity "KeySchedule"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/MixColumns.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\MixColumns.vhd
+# Compile Entity "MixColumns"
+# Compile Architecture "behavioral_concurent" of Entity "MixColumns"
+# Compile success 0 Errors 0 Warnings  Analysis time :  93.0 [ms]
+acom "$dsn/src/ShiftRows.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\ShiftRows.vhd
+# Compile Entity "ShiftRows"
+# Compile Architecture "behavioral" of Entity "ShiftRows"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom "$dsn/src/aes.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\aes.vhd
+# Compile Entity "aes"
+# Compile Architecture "behavioral" of Entity "aes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+comp -include "$dsn\src\TestBench\aes_TB.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\TestBench\aes_TB.vhd
+# Compile Entity "aes_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "aes_tb"
+# Compile Configuration "TESTBENCH_FOR_aes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+asim +access +r TESTBENCH_FOR_aes 
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6861 kB (elbread=1026 elab2=5473 kernel=361 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\AES\aes\src\wave.asdb
+#  15:56, 24 czerwca 2018
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_aes
+wave 
+wave -noreg clk
+wave -noreg n_reset
+wave -noreg data_in
+wave -noreg key_in
+wave -noreg data_out
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\aes_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_aes 
+# 5 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+runscript -do "c:\My_Designs\AES\aes\src\TestBench\aes_TB_runtest.do"
+SetActiveLib -work
+do "$dsn\src\aes_compile.do" 
+acom "$dsn/src/blk_mem_gen_v4_3.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\blk_mem_gen_v4_3.vhd
+# Compile Entity "blk_mem_gen_v4_3"
+# Compile Architecture "blk_mem_gen_v4_3_a" of Entity "blk_mem_gen_v4_3"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom "$dsn/src/common_pkg.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\common_pkg.vhd
+# Compile Package "common"
+# Compile Package Body "common"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom "$dsn/src/SBox.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\SBox.vhd
+# Compile Entity "SBox"
+# Compile Architecture "xilinx_8_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_4_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_2_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_1_dual_port_rom" of Entity "SBox"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom "$dsn/src/AddRoundKey.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\AddRoundKey.vhd
+# Compile Entity "AddRoundKey"
+# Compile Architecture "behavioral" of Entity "AddRoundKey"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/KeySchedule.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\KeySchedule.vhd
+# Compile Entity "KeySchedule"
+# Compile Architecture "xillinx_2_dual_port_rom" of Entity "KeySchedule"
+# Compile Architecture "external_sbox" of Entity "KeySchedule"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/MixColumns.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\MixColumns.vhd
+# Compile Entity "MixColumns"
+# Compile Architecture "behavioral_concurent" of Entity "MixColumns"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/ShiftRows.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\ShiftRows.vhd
+# Compile Entity "ShiftRows"
+# Compile Architecture "behavioral" of Entity "ShiftRows"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom "$dsn/src/aes.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\aes.vhd
+# Compile Entity "aes"
+# Compile Architecture "behavioral" of Entity "aes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+comp -include "$dsn\src\TestBench\aes_TB.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\AES\aes\src\TestBench\aes_TB.vhd
+# Compile Entity "aes_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "aes_tb"
+# Compile Configuration "TESTBENCH_FOR_aes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  93.0 [ms]
+asim +access +r TESTBENCH_FOR_aes 
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6861 kB (elbread=1026 elab2=5473 kernel=361 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\AES\aes\src\wave.asdb
+#  16:01, 24 czerwca 2018
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_aes
+wave 
+wave -noreg clk
+wave -noreg n_reset
+wave -noreg data_in
+wave -noreg key_in
+wave -noreg data_out
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\aes_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_aes 
+# 5 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+# 1 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6861 kB (elbread=1026 elab2=5473 kernel=361 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\AES\aes\src\wave.asdb
+#  16:03, 24 czerwca 2018
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_aes
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+# 1 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# EXECUTION:: NOTE   :  Block Memory Generator CORE Generator module loading initial data...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6861 kB (elbread=1026 elab2=5473 kernel=361 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\AES\aes\src\wave.asdb
+#  16:04, 24 czerwca 2018
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_aes
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+acom -O3 -work aes -2002  $dsn/src/aes.vhd
+# Compile...
+# Warning: DAGGEN_0523: The sou

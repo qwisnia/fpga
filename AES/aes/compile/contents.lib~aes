@@ -1,0 +1,22 @@
+889
+~E 1 "./src/blk_mem_gen_v4_3.vhd" 43 blk_mem_gen_v4_3
+~A 1 "./src/blk_mem_gen_v4_3.vhd" 53 blk_mem_gen_v4_3_a
+~E 1 "./src/aes.vhd" 30 aes
+~A 1 "./src/aes.vhd" 42 behavioral
+~E 1 "./src/AddRoundKey.vhd" 26 addroundkey
+~A 1 "./src/AddRoundKey.vhd" 36 behavioral
+~E 1 "./src/TestBench/aes_TB.vhd" 8 aes_tb
+~A 1 "./src/TestBench/aes_TB.vhd" 11 tb_architecture
+~E 1 "./src/SBox.vhd" 26 sbox
+~A 1 "./src/SBox.vhd" 35 xilinx_8_dual_port_rom
+~A 1 "./src/SBox.vhd" 124 xilinx_2_dual_port_rom
+~A 1 "./src/SBox.vhd" 194 xilinx_1_dual_port_rom
+~A 1 "./src/SBox.vhd" 68 xilinx_4_dual_port_rom
+~E 1 "./src/KeySchedule.vhd" 26 keyschedule
+~A 1 "./src/KeySchedule.vhd" 36 xillinx_2_dual_port_rom
+~A 1 "./src/KeySchedule.vhd" 98 external_sbox
+~E 1 "./src/MixColumns.vhd" 26 mixcolumns
+~A 1 "./src/MixColumns.vhd" 35 behavioral_concurent
+~E 1 "./src/ShiftRows.vhd" 26 shiftrows
+~A 1 "./src/ShiftRows.vhd" 35 behavioral
+~C 1 "./src/TestBench/aes_TB.vhd" 91 testbench_for_aes

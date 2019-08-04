@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available." 
+MESSAGE "File: c:\My_Designs\AES\aes\src\aes.vhd" 
+MESSAGE "Compile Entity "aes"" 
+MESSAGE "Compile Architecture "behavioral" of Entity "aes"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

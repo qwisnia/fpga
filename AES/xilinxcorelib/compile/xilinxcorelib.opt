@@ -1,0 +1,1 @@
+ -u "C:\Aldec\Active-HDL 8.3\bin/systf.dll" -v20  "C:\My_Designs\MixColums\xilinxcorelib\src\blk_mem_gen_v4_3.v"  -cs  -g 5  -r -li "C:\My_Designs\MixColums\xilinxcorelib\compile\xilinxcorelib.epr" -p "C:\My_Designs\MixColums\xilinxcorelib" 

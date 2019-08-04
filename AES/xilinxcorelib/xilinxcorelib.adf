@@ -1,0 +1,92 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=xilinxcorelib
+
+[Library]
+xilinxcorelib=.\xilinxcorelib.LIB
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+SYNTH_TOOL=MV_XST123_SYNTH_IMPL
+IMPL_TOOL=<none>
+CSYNTH_TOOL=<none>
+PHYSSYNTH_TOOL=<none>
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=IMPL_WITH_SYNTH
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+REFRESH_FLOW=1
+FAMILY=Xilinx12x SPARTAN3
+RUN_MODE_SYNTH=1
+HESPrepare=0
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+xilinxcorelib=.
+Active_lib=SPARTAN3
+xilinxun=SPARTAN3
+UnlinkedDesignLibrary=SPARTAN3
+DESIGNS=SPARTAN3
+
+[IMPLEMENTATION]
+UCF=
+
+[Folders]
+Name3=Makefiles
+Directory3=C:\My_Designs\MixColums\xilinxcorelib\
+Extension3=mak
+Name4=Memory
+Directory4=C:\My_Designs\MixColums\xilinxcorelib\src
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=C:\My_Designs\MixColums\xilinxcorelib\
+Extension5=dll
+Name6=PDF
+Directory6=C:\My_Designs\MixColums\xilinxcorelib\
+Extension6=pdf
+Name7=HTML
+Directory7=C:\My_Designs\MixColums\xilinxcorelib\
+Extension7=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/blk_mem_gen_v4_3.v=-1
+/blk_mem_gen_v4_3.vhd=-1
+/blk_mem_gen_v4_3_xst.v=-1
+/blk_mem_gen_v4_3_xst_comp.vhd=-1
+/blk_mem_gen_v4_3_xst.vhd=-1
+/blk_mem_gen_v4_3_comp.vhd=-1
+
+[Files.Data]
+.\src\blk_mem_gen_v4_3.v=Verilog Source Code
+.\src\blk_mem_gen_v4_3.vhd=VHDL Source Code
+.\src\blk_mem_gen_v4_3_xst.v=Verilog Source Code
+.\src\blk_mem_gen_v4_3_xst_comp.vhd=VHDL Source Code
+.\src\blk_mem_gen_v4_3_xst.vhd=VHDL Source Code
+.\src\blk_mem_gen_v4_3_comp.vhd=VHDL Source Code

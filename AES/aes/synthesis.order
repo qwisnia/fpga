@@ -1,0 +1,14 @@
+i<>.\src\AddRoundKey.vhd
+i<>.\src\aes.vhd
+i<>.\src\blk_mem_gen_v4_3.vhd
+i<>.\src\common_pkg.vhd
+i<>.\src\KeySchedule.vhd
+i<>.\src\MixColumns.vhd
+i<>.\src\SBox.vhd
+i<>.\src\ShiftRows.vhd
+i<>.\src\TestBench\addroundkey_TB.vhd
+i<>.\src\TestBench\aes_TB.vhd
+i<>.\src\TestBench\keyschedule_TB.vhd
+i<>.\src\TestBench\mixcolumns_TB.vhd
+i<>.\src\TestBench\sbox_TB.vhd
+i<>.\src\TestBench\shiftrows_TB.vhd

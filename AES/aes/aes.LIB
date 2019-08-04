@@ -1,0 +1,147 @@
+timestamp=1529853528524
+
+[addroundkey]
+A/behavioral=21|./src/AddRoundKey.vhd|36|1*715201
+B/behavioral=3*164867
+C=8.3.2120.sp1.14.3884  (Windows)|00000003789cd3f5370600015b00b0
+C/behavioral=8.3.2120.sp1.14.3884  (Windows)|00000003789cd3f5370600015b00b0
+I=0*14527
+I/behavioral=0*15048
+M=11|0|v80|1529847664093|./src/AddRoundKey.vhd|0*14128*0x8a886212801f84d5ee7e27c35e0c351145f58988|0*14444*0xab32bc1a2daf049573e14469f634e0e6
+M/behavioral=21|0|v80|1529852499397|./src/AddRoundKey.vhd|0*14686*0xe1b9ce73124d34de7bb6572296d4bf44b034c800|0*14951*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/AddRoundKey.vhd|26
+
+[aes]
+A/behavioral=21|./src/aes.vhd|42|1*746732
+B/behavioral=3*174507
+C=8.3.2120.sp1.14.3884  (Windows)|00000003789cd3f5370600015b00b0
+C/behavioral=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+I=0*25231
+I/behavioral=0*44862
+M=11|0|v80|1529847728181|./src/aes.vhd|0*24880*0x328dcecff540c3ad4875008db07347bdbc5d94d8|0*25164*0xab32bc1a2daf049573e14469f634e0e6
+M/behavioral=21|0|v80|1529853528416|./src/aes.vhd|0*42235*0x3f468d473bb88a8cd1db074b15bb26abfbb9cfa2|0*44781*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/aes.vhd|30
+
+[aes_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./src/TestBench/aes_TB.vhd|11|1*742450
+B/tb_architecture=3*173861
+C=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+C/tb_architecture=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+I=0*28735
+I/tb_architecture=I/TB_ARCHITECTURE 0*42015
+M=11|0|v80|1529847787036|./src/TestBench/aes_TB.vhd|0*28466*0xdbc9f10c1cd69683466e126cd3c1361094bc2248|0*28652*0xab32bc1a2daf049573e14469f634e0e6
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|v80|1529852501981|./src/TestBench/aes_TB.vhd|0*39923*0x2ea9a8fa41014efce84915a870e351a9bb47cde5|0*41913*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/TestBench/aes_TB.vhd|8
+
+[blk_mem_gen_v4_3]
+A/blk_mem_gen_v4_3_a=21|./src/blk_mem_gen_v4_3.vhd|53|1*686811
+C=8.3.2120.sp1.14.3884  (Windows)|00000003789cd3f5370600015b00b0
+C/blk_mem_gen_v4_3_a=8.3.2120.sp1.14.3884  (Windows)|00000003789cd3f5370600015b00b0
+I=0*802
+I/blk_mem_gen_v4_3_a=0*2992
+M=11|0|v80|1529847575241|./src/blk_mem_gen_v4_3.vhd|0*306*0xa5b0832a37e0de381c8e4bb99b09c9ed902edd4b|0*709*0xab32bc1a2daf049573e14469f634e0e6
+M/blk_mem_gen_v4_3_a=21|0|v80|1529852498154|./src/blk_mem_gen_v4_3.vhd|0*912*0x1b86a520c51c898544732754894746d20b19be05|0*2877*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/blk_mem_gen_v4_3.vhd|43
+
+[common]
+B/common=3*159639
+C=8.3.2120.sp1.14.3884  (Windows)|00000003789cd3f5370600015b00b0
+E=1*692347
+I=0*5339
+I/common=0*6169
+M=3|0|v80|1529847575503|./src/common_pkg.vhd|0*4331*0xad995a3c3bbf313e3a387d683af3d253dcd42bf4|0*5262*0xab32bc1a2daf049573e14469f634e0e6
+M/common=4|0|v80|1529852498454|./src/common_pkg.vhd|0*5439*0x72fd30969cea123c59698a1bcf0982bbbe11454e|0*6083*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/common_pkg.vhd|5
+
+[keyschedule]
+A/external_sbox=21|./src/KeySchedule.vhd|98|1*723110
+A/xillinx_2_dual_port_rom=21|./src/KeySchedule.vhd|36|1*717241
+B/external_sbox=3*167367
+B/xillinx_2_dual_port_rom=3*165534
+C=8.3.2120.sp1.14.3884  (Windows)|00000003789cd3f5370600015b00b0
+C/external_sbox=8.3.2120.sp1.14.3884  (Windows)|00000003789cd3f5370600015b00b0
+C/xillinx_2_dual_port_rom=8.3.2120.sp1.14.3884  (Windows)|00000003789cd3f5370600015b00b0
+I=0*15886
+I/external_sbox=0*19598
+I/xillinx_2_dual_port_rom=0*17859
+M=11|0|v80|1529847687741|./src/KeySchedule.vhd|0*15470*0x149e39ceeadf7fc301115deed24424d8a98e9acb|0*15803*0xab32bc1a2daf049573e14469f634e0e6
+M/external_sbox=21|0|v80|1529852500008|./src/KeySchedule.vhd|0*18105*0xadc6152f3e799eeb8840edeab619e8f55b64c0b7|0*19498*0xb33770ff1c10522f9491560174ac8e6c
+M/xillinx_2_dual_port_rom=21|0|v80|1529852500003|./src/KeySchedule.vhd|0*16045*0x1b05f09aa048553b593c4bba2dcf0127c984bc3f|0*17749*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/KeySchedule.vhd|26
+
+[mixcolumns]
+A/behavioral_concurent=21|./src/MixColumns.vhd|35|1*727692
+B/behavioral_concurent=3*169076
+C=8.3.2120.sp1.14.3884  (Windows)|00000003789cd3f5370600015b00b0
+C/behavioral_concurent=8.3.2120.sp1.14.3884  (Windows)|00000003789cd3f5370600015b00b0
+I=0*20359
+I/behavioral_concurent=0*22844
+M=11|0|v80|1529847699771|./src/MixColumns.vhd|0*19986*0x4e81eef4d3826b68a41852bbf90b7706c8ab0198|0*20278*0xab32bc1a2daf049573e14469f634e0e6
+M/behavioral_concurent=21|0|v80|1529852500872|./src/MixColumns.vhd|0*20517*0x772852c2c588576cf90eb1b78555a25255ec2676|0*22739*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/MixColumns.vhd|26
+
+[sbox]
+A/xilinx_1_dual_port_rom=21|./src/SBox.vhd|194|1*709311
+A/xilinx_2_dual_port_rom=21|./src/SBox.vhd|124|1*703533
+A/xilinx_4_dual_port_rom=21|./src/SBox.vhd|68|1*698673
+A/xilinx_8_dual_port_rom=21|./src/SBox.vhd|35|1*695511
+B/xilinx_1_dual_port_rom=3*163368
+B/xilinx_2_dual_port_rom=3*161599
+B/xilinx_4_dual_port_rom=3*160332
+B/xilinx_8_dual_port_rom=3*160092
+C=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+C/xilinx_1_dual_port_rom=8.3.2120.sp1.14.3884  (Windows)|00000003789cd3f5370600015b00b0
+C/xilinx_2_dual_port_rom=8.3.2120.sp1.14.3884  (Windows)|00000003789cd3f5370600015b00b0
+C/xilinx_4_dual_port_rom=8.3.2120.sp1.14.3884  (Windows)|00000003789cd3f5370600015b00b0
+C/xilinx_8_dual_port_rom=8.3.2120.sp1.14.3884  (Windows)|00000003789cd3f5370600015b00b0
+I=0*6810
+I/xilinx_1_dual_port_rom=0*13653
+I/xilinx_2_dual_port_rom=0*11341
+I/xilinx_4_dual_port_rom=0*9296
+I/xilinx_8_dual_port_rom=0*7703
+M=11|0|v80|1529847640953|./src/SBox.vhd|0*6473*0x48156474bd476a0a11e801aabb5949b7228c69be|0*6741*0xab32bc1a2daf049573e14469f634e0e6
+M/xilinx_1_dual_port_rom=21|0|v80|1529852498842|./src/SBox.vhd|0*11579*0xee86df00b421d5182e8640515667a2fdc5eff14c|0*13558*0xb33770ff1c10522f9491560174ac8e6c
+M/xilinx_2_dual_port_rom=21|0|v80|1529852498833|./src/SBox.vhd|0*9534*0x7509d1edf32f2b2ebf83c86318c6ccaad1747232|0*11246*0xb33770ff1c10522f9491560174ac8e6c
+M/xilinx_4_dual_port_rom=21|0|v80|1529852498827|./src/SBox.vhd|0*7941*0xf090999300a64cddad663b5c69ab256136928737|0*9201*0xb33770ff1c10522f9491560174ac8e6c
+M/xilinx_8_dual_port_rom=21|0|v80|1529852498820|./src/SBox.vhd|0*6962*0xf7f1f98a6992d40e00d695083e76098ff29340d2|0*7608*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/SBox.vhd|26
+
+[shiftrows]
+A/behavioral=21|./src/ShiftRows.vhd|35|1*733241
+B/behavioral=3*172172
+C=8.3.2120.sp1.14.3884  (Windows)|00000003789cd3f5370600015b00b0
+C/behavioral=8.3.2120.sp1.14.3884  (Windows)|00000003789cd3f5370600015b00b0
+I=0*23602
+I/behavioral=0*24499
+M=11|0|v80|1529847711930|./src/ShiftRows.vhd|0*23235*0x1d88204d2f71c6fac2e618056115f859d204b81a|0*23523*0xab32bc1a2daf049573e14469f634e0e6
+M/behavioral=21|0|v80|1529852501342|./src/ShiftRows.vhd|0*23759*0xf73a95c869468ed0bbd3d6214b226918ff4e61ca|0*24406*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/ShiftRows.vhd|26
+
+[testbench_for_aes]
+C=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+E=1*746321
+I=0*39708
+M=2|0|v80|1529852501987|./src/TestBench/aes_TB.vhd|0*39361*0x66cc776150178da3ffe605ac3a8e7eb90bab4fb7|0*39605*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/TestBench/aes_TB.vhd|91
+
+[~A]
+ModifyID=889
+Version=73
+
+[~MFT]
+0=114|0aes.mgf|44862|13492
+1=321|1aes.mgf|746732|692607
+3=279|3aes.mgf|174507|160664
+
+[~U]
+addroundkey=AddRoundKey 11|0*13891|
+aes=11|0*24667|
+aes_tb=11|0*28402|
+blk_mem_gen_v4_3=11|0*0|
+common=3|0*3197|0*3557
+keyschedule=KeySchedule 11|0*15218|
+mixcolumns=MixColumns 11|0*19771|
+sbox=SBox 11|0*6276|
+shiftrows=ShiftRows 11|0*23023|
+testbench_for_aes=TESTBENCH_FOR_aes 2||
+

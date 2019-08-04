@@ -1,0 +1,14 @@
+[Version]
+Version=8.3
+[Designs]
+aes=.\aes\aes.adf
+xilinxcorelib=.\xilinxcorelib\xilinxcorelib.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+aes=1
+xilinxcorelib=0

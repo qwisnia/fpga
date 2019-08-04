@@ -1,0 +1,1 @@
+ -erf "C:\My_Designs\MixColums\xilinxcorelib\compile\xilinxcorelib.erf" -work xilinxcorelib -lc C:/My_Designs/MixColums/library.cfg -fl C:/My_Designs/MixColums/xilinxcorelib/projlib.cfg -o C:/My_Designs/MixColums/xilinxcorelib/compile -l "xilinxcorelib"

@@ -1,0 +1,14 @@
+[Version]
+Version=8.3
+[Designs]
+xilinxcorelib=xilinxcorelib.adf
+[Settings]
+Active=xilinxcorelib
+[Expand]
+xilinxcorelib=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

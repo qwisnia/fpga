@@ -1,0 +1,23 @@
+135
+~M 1 "./src/blk_mem_gen_v4_3.v" 81 BLK_MEM_GEN_V4_3_output_stage
+~A 1 "./src/blk_mem_gen_v4_3.v" 81 BLK_MEM_GEN_V4_3_output_stage
+~M 1 "./src/blk_mem_gen_v4_3.v" 2047 BLK_MEM_GEN_V4_3
+~A 1 "./src/blk_mem_gen_v4_3.v" 2047 BLK_MEM_GEN_V4_3
+~M 0 "" 0 $root
+~A 1 "" 0 $root
+~M 1 "./src/blk_mem_gen_v4_3.v" 478 BLK_MEM_GEN_V4_3_mem_module
+~A 1 "./src/blk_mem_gen_v4_3.v" 478 BLK_MEM_GEN_V4_3_mem_module
+~M 3 "./src/blk_mem_gen_v4_3_xst.v" 63 BLK_MEM_GEN_V4_3_xst
+~A 1 "./src/blk_mem_gen_v4_3_xst.v" 63 BLK_MEM_GEN_V4_3_xst
+~M 1 "./src/blk_mem_gen_v4_3.v" 386 BLK_MEM_GEN_V4_3_softecc_output_reg_stage
+~A 1 "./src/blk_mem_gen_v4_3.v" 386 BLK_MEM_GEN_V4_3_softecc_output_reg_stage
+~E 1 "./src/blk_mem_gen_v4_3.vhd" 2671 blk_mem_gen_v4_3
+~A 1 "./src/blk_mem_gen_v4_3.vhd" 2889 behavioral
+~E 1 "./src/blk_mem_gen_v4_3.vhd" 87 blk_mem_gen_v4_3_output_stage
+~A 1 "./src/blk_mem_gen_v4_3.vhd" 166 output_stage_behavioral
+~E 1 "./src/blk_mem_gen_v4_3.vhd" 566 blk_mem_gen_v4_3_mem_module
+~A 1 "./src/blk_mem_gen_v4_3.vhd" 786 mem_module_behavioral
+~E 1 "./src/blk_mem_gen_v4_3_xst.vhd" 79 blk_mem_gen_v4_3_xst
+~A 1 "./src/blk_mem_gen_v4_3_xst.vhd" 176 behavioral
+~E 1 "./src/blk_mem_gen_v4_3.vhd" 459 blk_mem_gen_v4_3_softecc_output_reg_stage
+~A 1 "./src/blk_mem_gen_v4_3.vhd" 508 softecc_output_reg_stage_behavioral

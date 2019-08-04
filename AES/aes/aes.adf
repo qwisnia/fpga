@@ -1,0 +1,94 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=aes
+
+[Library]
+aes=.\aes.LIB
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=Xilinx12x SPARTAN3
+fileopeninsrc=1
+fileopenfolder=C:\My_Designs\AES\aes\src\TestBench
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+aes=.
+Active_lib=SPARTAN3
+xilinxun=SPARTAN3
+UnlinkedDesignLibrary=SPARTAN3
+DESIGNS=SPARTAN3
+
+[Groups]
+TestBench=1
+
+[Files]
+/AddRoundKey.vhd=-1
+/aes.vhd=-1
+/aes_compile.do=-1
+/blk_mem_gen_v4_3.mif=-1
+/blk_mem_gen_v4_3.vhd=-1
+/common_pkg.vhd=-1
+/KeySchedule.vhd=-1
+/MixColumns.vhd=-1
+/SBox.vhd=-1
+/ShiftRows.vhd=-1
+TestBench/addroundkey_TB.vhd=-1
+TestBench/addroundkey_TB_runtest.do=-1
+TestBench/aes_TB.vhd=-1
+TestBench/aes_TB_runtest.do=-1
+TestBench/keyschedule_TB.vhd=-1
+TestBench/keyschedule_TB_runtest.do=-1
+TestBench/mixcolumns_TB.vhd=-1
+TestBench/mixcolumns_TB_runtest.do=-1
+TestBench/sbox_TB.vhd=-1
+TestBench/sbox_TB_runtest.do=-1
+TestBench/shiftrows_TB.vhd=-1
+TestBench/shiftrows_TB_runtest.do=-1
+
+[Files.Data]
+.\src\AddRoundKey.vhd=VHDL Source Code
+.\src\aes.vhd=VHDL Source Code
+.\src\aes_compile.do=Macro
+.\src\blk_mem_gen_v4_3.mif=Memory File
+.\src\blk_mem_gen_v4_3.vhd=VHDL Source Code
+.\src\common_pkg.vhd=VHDL Source Code
+.\src\KeySchedule.vhd=VHDL Source Code
+.\src\MixColumns.vhd=VHDL Source Code
+.\src\SBox.vhd=VHDL Source Code
+.\src\ShiftRows.vhd=VHDL Source Code
+.\src\TestBench\addroundkey_TB.vhd=VHDL Source Code
+.\src\TestBench\addroundkey_TB_runtest.do=Macro
+.\src\TestBench\aes_TB.vhd=VHDL Source Code
+.\src\TestBench\aes_TB_runtest.do=Macro
+.\src\TestBench\keyschedule_TB.vhd=VHDL Source Code
+.\src\TestBench\keyschedule_TB_runtest.do=Macro
+.\src\TestBench\mixcolumns_TB.vhd=VHDL Source Code
+.\src\TestBench\mixcolumns_TB_runtest.do=Macro
+.\src\TestBench\sbox_TB.vhd=VHDL Source Code
+.\src\TestBench\sbox_TB_runtest.do=Macro
+.\src\TestBench\shiftrows_TB.vhd=VHDL Source Code
+.\src\TestBench\shiftrows_TB_runtest.do=Macro
+
