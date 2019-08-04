@@ -1,0 +1,1 @@
+-w -s "C:\My_Designs\MixColums\library.cfg"  -j "C:\My_Designs\MixColums\xilinxcorelib\projlib.cfg"  -d "C:\My_Designs\MixColums\xilinxcorelib\compile"   -work xilinxcorelib  -O3 -e 100 -2002 "C:\My_Designs\MixColums\xilinxcorelib\src\blk_mem_gen_v4_3.vhd" 

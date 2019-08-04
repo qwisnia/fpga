@@ -1,0 +1,58 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE "Module \$root found in current working library."
+BEGINPROGRESS Compiling...
+UPDATEPROGRESS 35
+MESSAGE "Pass 2. Processing instantiations."
+UPDATEPROGRESS 37
+UPDATEPROGRESS 40
+UPDATEPROGRESS 45
+MESSAGE "Pass 3. Processing behavioral statements."
+UPDATEPROGRESS 48
+WARNING VCP7060 "Argument ADDRFILE should be a 32-bit multi_channel_descriptor." "C:/My_Designs/MixColums/xilinxcorelib/src/blk_mem_gen_v4_3.v" 884 37
+UPDATEPROGRESS 52
+WARNING VCP7060 "Argument ADDRFILE should be a 32-bit multi_channel_descriptor." "C:/My_Designs/MixColums/xilinxcorelib/src/blk_mem_gen_v4_3.v" 1008 37
+WARNING VCP7060 "Argument ADDRFILE should be a 32-bit multi_channel_descriptor." "C:/My_Designs/MixColums/xilinxcorelib/src/blk_mem_gen_v4_3.v" 1081 37
+WARNING VCP7060 "Argument ADDRFILE should be a 32-bit multi_channel_descriptor." "C:/My_Designs/MixColums/xilinxcorelib/src/blk_mem_gen_v4_3.v" 1123 37
+UPDATEPROGRESS 55
+WARNING VCP7060 "Argument ERRFILE should be a 32-bit multi_channel_descriptor." "C:/My_Designs/MixColums/xilinxcorelib/src/blk_mem_gen_v4_3.v" 1219 78
+WARNING VCP7060 "Argument ERRFILE should be a 32-bit multi_channel_descriptor." "C:/My_Designs/MixColums/xilinxcorelib/src/blk_mem_gen_v4_3.v" 1226 49
+WARNING VCP7060 "Argument ERRFILE should be a 32-bit multi_channel_descriptor." "C:/My_Designs/MixColums/xilinxcorelib/src/blk_mem_gen_v4_3.v" 1245 31
+WARNING VCP7060 "Argument ERRFILE should be a 32-bit multi_channel_descriptor." "C:/My_Designs/MixColums/xilinxcorelib/src/blk_mem_gen_v4_3.v" 1252 48
+UPDATEPROGRESS 59
+UPDATEPROGRESS 62
+UPDATEPROGRESS 66
+UPDATEPROGRESS 69
+WARNING VCP7060 "Argument COLLFILE should be a 32-bit multi_channel_descriptor." "C:/My_Designs/MixColums/xilinxcorelib/src/blk_mem_gen_v4_3.v" 1935 34
+WARNING VCP7060 "Argument COLLFILE should be a 32-bit multi_channel_descriptor." "C:/My_Designs/MixColums/xilinxcorelib/src/blk_mem_gen_v4_3.v" 1938 48
+WARNING VCP2822 "Incompatible types at task enable/function argument: web_delay<wire> -> iswrite_b<integer>." "C:/My_Designs/MixColums/xilinxcorelib/src/blk_mem_gen_v4_3.v" 1971 1
+WARNING VCP7060 "Argument COLLFILE should be a 32-bit multi_channel_descriptor." "C:/My_Designs/MixColums/xilinxcorelib/src/blk_mem_gen_v4_3.v" 1983 34
+WARNING VCP7060 "Argument COLLFILE should be a 32-bit multi_channel_descriptor." "C:/My_Designs/MixColums/xilinxcorelib/src/blk_mem_gen_v4_3.v" 1985 55
+WARNING VCP7060 "Argument COLLFILE should be a 32-bit multi_channel_descriptor." "C:/My_Designs/MixColums/xilinxcorelib/src/blk_mem_gen_v4_3.v" 1989 34
+WARNING VCP7060 "Argument COLLFILE should be a 32-bit multi_channel_descriptor." "C:/My_Designs/MixColums/xilinxcorelib/src/blk_mem_gen_v4_3.v" 1991 61
+WARNING VCP2822 "Incompatible types at task enable/function argument: wea_delay<wire> -> iswrite_a<integer>." "C:/My_Designs/MixColums/xilinxcorelib/src/blk_mem_gen_v4_3.v" 2013 1
+WARNING VCP7060 "Argument COLLFILE should be a 32-bit multi_channel_descriptor." "C:/My_Designs/MixColums/xilinxcorelib/src/blk_mem_gen_v4_3.v" 2025 34
+WARNING VCP7060 "Argument COLLFILE should be a 32-bit multi_channel_descriptor." "C:/My_Designs/MixColums/xilinxcorelib/src/blk_mem_gen_v4_3.v" 2027 55
+WARNING VCP7060 "Argument COLLFILE should be a 32-bit multi_channel_descriptor." "C:/My_Designs/MixColums/xilinxcorelib/src/blk_mem_gen_v4_3.v" 2031 34
+WARNING VCP7060 "Argument COLLFILE should be a 32-bit multi_channel_descriptor." "C:/My_Designs/MixColums/xilinxcorelib/src/blk_mem_gen_v4_3.v" 2033 61
+UPDATEPROGRESS 73
+UPDATEPROGRESS 80
+WARNING VCP2853 "Incompatible types at assignment, implicit conversion will be used: .scaled_addra_to_waddrb_width<integer> <- addr_a/(2**(C_ADDRA_WIDTH-write_addr_b_width))<real>." "C:/My_Designs/MixColums/xilinxcorelib/src/blk_mem_gen_v4_3.v" 1325 1
+WARNING VCP2853 "Incompatible types at assignment, implicit conversion will be used: .scaled_addrb_to_waddrb_width<integer> <- addr_b/(2**(C_ADDRB_WIDTH-write_addr_b_width))<real>." "C:/My_Designs/MixColums/xilinxcorelib/src/blk_mem_gen_v4_3.v" 1327 1
+WARNING VCP2853 "Incompatible types at assignment, implicit conversion will be used: .scaled_addra_to_waddra_width<integer> <- addr_a/(2**(C_ADDRA_WIDTH-write_addr_a_width))<real>." "C:/My_Designs/MixColums/xilinxcorelib/src/blk_mem_gen_v4_3.v" 1335 1
+WARNING VCP2853 "Incompatible types at assignment, implicit conversion will be used: .scaled_addrb_to_waddra_width<integer> <- addr_b/(2**(C_ADDRB_WIDTH-write_addr_a_width))<real>." "C:/My_Designs/MixColums/xilinxcorelib/src/blk_mem_gen_v4_3.v" 1337 1
+WARNING VCP2853 "Incompatible types at assignment, implicit conversion will be used: .scaled_addra_to_raddrb_width<integer> <- addr_a/(2**(C_ADDRA_WIDTH-read_addr_b_width))<real>." "C:/My_Designs/MixColums/xilinxcorelib/src/blk_mem_gen_v4_3.v" 1345 1
+WARNING VCP2853 "Incompatible types at assignment, implicit conversion will be used: .scaled_addrb_to_raddrb_width<integer> <- addr_b/(2**(C_ADDRB_WIDTH-read_addr_b_width))<real>." "C:/My_Designs/MixColums/xilinxcorelib/src/blk_mem_gen_v4_3.v" 1347 1
+WARNING VCP2853 "Incompatible types at assignment, implicit conversion will be used: .scaled_addra_to_raddra_width<integer> <- addr_a/(2**(C_ADDRA_WIDTH-read_addr_a_width))<real>." "C:/My_Designs/MixColums/xilinxcorelib/src/blk_mem_gen_v4_3.v" 1355 1
+WARNING VCP2853 "Incompatible types at assignment, implicit conversion will be used: .scaled_addrb_to_raddra_width<integer> <- addr_b/(2**(C_ADDRB_WIDTH-read_addr_a_width))<real>." "C:/My_Designs/MixColums/xilinxcorelib/src/blk_mem_gen_v4_3.v" 1357 1
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE "Module \$root found in current working library."
+UPDATEPROGRESS 84
+UPDATEPROGRESS 88
+UPDATEPROGRESS 92
+UPDATEPROGRESS 96
+UPDATEPROGRESS 100
+MESSAGE "$root top modules: BLK_MEM_GEN_V4_3_xst."
+ENDPROGRESS Compiling...
+SUCCESS "Compile success 0 Errors 28 Warnings  Analysis time: 0[s]."
+MESSAGE "done"

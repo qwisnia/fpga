@@ -1,0 +1,12 @@
+acom -O3 -work addroundkey -2002  $dsn/src/addroundkey.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\MixColums\AddRoundKey\src\addroundkey.vhd
+# Compile Entity "AddRoundKey"
+# Compile Architecture "behavioral" of Entity "AddRoundKey"
+# Compile success 0 Errors 0 Warnings  Analysis time :  93.0 [ms]
+# Design: Design "KeySchedule" has been set as active.
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: The contents of package 'aes.aes_package' referenced in entity 'KeySchedule' differ from the contents available during the compilation of this entity.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed

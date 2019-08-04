@@ -1,0 +1,97 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=mixcolumns
+
+[Library]
+MixColumns=.\MixColumns.LIB
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=MV_XST123_SYNTH_IMPL
+RUN_MODE_SYNTH=1
+IMPL_TOOL=<none>
+CSYNTH_TOOL=<none>
+PHYSSYNTH_TOOL=<none>
+FLOWTOOLS=IMPL_WITH_SYNTH
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+FAMILY=Xilinx12x SPARTAN3
+fileopeninsrc=1
+fileopenfolder=C:\Xilinx\12.3\ISE_DS\ISE\coregen\ip\xilinx\primary\com\xilinx\ip\blk_mem_gen_v4_3\simulation
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+MixColumns=.
+Active_lib=SPARTAN3
+xilinxun=SPARTAN3
+UnlinkedDesignLibrary=SPARTAN3
+DESIGNS=SPARTAN3
+
+[IMPLEMENTATION]
+UCF=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=mixcolumns|mixcolumns|0 mixcolumns_tb|testbench_for_mixcolumns|1
+ShowHide=ShowTopLevel
+Selected=
+
+[Groups]
+TestBench=1
+
+[Folders]
+Name3=Makefiles
+Directory3=c:\My_Designs\MixColums\MixColumns\
+Extension3=mak
+Name4=Memory
+Directory4=c:\My_Designs\MixColums\MixColumns\src
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=c:\My_Designs\MixColums\MixColumns\
+Extension5=dll
+Name6=PDF
+Directory6=c:\My_Designs\MixColums\MixColumns\
+Extension6=pdf
+Name7=HTML
+Directory7=c:\My_Designs\MixColums\MixColumns\
+Extension7=
+
+[Files]
+/MixColumns.vhd=-1
+/common.vhd=-1
+/..\default_compile.do=-1
+TestBench/mixcolumns_TB.vhd=-1
+TestBench/mixcolumns_TB_tim_cfg.vhd=-1
+TestBench/mixcolumns_TB_runtest.do=-1
+
+[Files.Data]
+.\src\MixColumns.vhd=VHDL Source Code
+.\src\common.vhd=VHDL Source Code
+.\default_compile.do=Macro
+.\src\TestBench\mixcolumns_TB.vhd=VHDL Source Code
+.\src\TestBench\mixcolumns_TB_tim_cfg.vhd=VHDL Source Code
+.\src\TestBench\mixcolumns_TB_runtest.do=Macro
+

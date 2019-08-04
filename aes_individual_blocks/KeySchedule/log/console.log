@@ -1,0 +1,81 @@
+acom -O3 -work KeySchedule -2002  $dsn/src/KeySchedule.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\MixColums\KeySchedule\src\KeySchedule.vhd
+# Compile Entity "KeySchedule"
+# Error: COMP96_0078: KeySchedule.vhd : (30, 18): Unknown identifier "state".
+# Error: COMP96_0064: KeySchedule.vhd : (30, 18): Unknown type.
+# Error: COMP96_0078: KeySchedule.vhd : (32, 18): Unknown identifier "state".
+# Error: COMP96_0064: KeySchedule.vhd : (32, 18): Unknown type.
+# Compile Architecture "xillinx_2_dual_port_rom" of Entity "KeySchedule"
+# Error: VLM_0009: KeySchedule.vhd : (0, 0): Entity "keyschedule.KeySchedule" must be recompiled because package "aes.aes_package" has changed.
+# Error: COMP96_0056: KeySchedule.vhd : (36, 1): Cannot find referenced entity declaration "KeySchedule".
+# Compile Architecture "external_sbox" of Entity "KeySchedule"
+# Error: VLM_0009: KeySchedule.vhd : (0, 0): Entity "keyschedule.KeySchedule" must be recompiled because package "aes.aes_package" has changed.
+# Error: COMP96_0056: KeySchedule.vhd : (98, 1): Cannot find referenced entity declaration "KeySchedule".
+# Compile failure 8 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -work KeySchedule -2002  $dsn/src/KeySchedule.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\MixColums\KeySchedule\src\KeySchedule.vhd
+# Compile Entity "KeySchedule"
+# Compile Architecture "xillinx_2_dual_port_rom" of Entity "KeySchedule"
+# Compile Architecture "external_sbox" of Entity "KeySchedule"
+# Error: COMP96_0078: KeySchedule.vhd : (113, 27): Unknown identifier "column".
+# Error: COMP96_0064: KeySchedule.vhd : (113, 27): Unknown type.
+# Error: COMP96_0078: KeySchedule.vhd : (114, 27): Unknown identifier "column".
+# Error: COMP96_0064: KeySchedule.vhd : (114, 27): Unknown type.
+# Error: COMP96_0078: KeySchedule.vhd : (115, 27): Unknown identifier "state".
+# Error: COMP96_0064: KeySchedule.vhd : (115, 27): Unknown type.
+# Error: COMP96_0289: KeySchedule.vhd : (121, 2): Prefix of index must be an array.
+# Error: COMP96_0289: KeySchedule.vhd : (122, 2): Prefix of index must be an array.
+# Error: COMP96_0289: KeySchedule.vhd : (123, 2): Prefix of index must be an array.
+# Error: COMP96_0289: KeySchedule.vhd : (124, 2): Prefix of index must be an array.
+# Error: COMP96_0289: KeySchedule.vhd : (126, 2): Prefix of index must be an array.
+# Error: COMP96_0289: KeySchedule.vhd : (127, 2): Prefix of index must be an array.
+# Error: COMP96_0289: KeySchedule.vhd : (128, 2): Prefix of index must be an array.
+# Error: COMP96_0289: KeySchedule.vhd : (129, 2): Prefix of index must be an array.
+# Error: COMP96_0289: KeySchedule.vhd : (131, 2): Prefix of index must be an array.
+# Error: COMP96_0289: KeySchedule.vhd : (132, 2): Prefix of index must be an array.
+# Error: COMP96_0289: KeySchedule.vhd : (133, 2): Prefix of index must be an array.
+# Error: COMP96_0289: KeySchedule.vhd : (134, 2): Prefix of index must be an array.
+# Error: COMP96_0289: KeySchedule.vhd : (136, 2): Prefix of index must be an array.
+# Error: COMP96_0289: KeySchedule.vhd : (137, 2): Prefix of index must be an array.
+# Error: COMP96_0289: KeySchedule.vhd : (138, 2): Prefix of index must be an array.
+# Error: COMP96_0289: KeySchedule.vhd : (139, 2): Prefix of index must be an array.
+# Error: COMP96_0077: KeySchedule.vhd : (142, 13): Undefined type of expression. Expected type 'state_t'.
+# Compile failure 23 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -work KeySchedule -2002  $dsn/src/KeySchedule.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\MixColums\KeySchedule\src\KeySchedule.vhd
+# Compile Entity "KeySchedule"
+# Compile Architecture "xillinx_2_dual_port_rom" of Entity "KeySchedule"
+# Compile Architecture "external_sbox" of Entity "KeySchedule"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work KeySchedule -2002  $dsn/src/KeySchedule.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\MixColums\KeySchedule\src\KeySchedule.vhd
+# Compile Entity "KeySchedule"
+# Compile Architecture "xillinx_2_dual_port_rom" of Entity "KeySchedule"
+# Compile Architecture "external_sbox" of Entity "KeySchedule"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+# Library Manager: Library "keyschedule" contents cleared.
+acom -reorder -O3 -work KeySchedule -2002  $dsn/src/KeySchedule.vhd
+# Compile with File Reorder...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\MixColums\KeySchedule\src\KeySchedule.vhd
+# Compile Entity "KeySchedule"
+# Compile Architecture "xillinx_2_dual_port_rom" of Entity "KeySchedule"
+# Compile Architecture "external_sbox" of Entity "KeySchedule"
+# Top-level unit(s) detected:
+# Entity => KeySchedule
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Design: Design "SBox" has been set as active.
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: The contents of package 'aes.aes_package' referenced in entity 'SBox' differ from the contents available during the compilation of this entity.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed

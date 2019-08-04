@@ -1,0 +1,9 @@
+runscript -do "c:\My_Designs\MixColums\ShiftRows\src\default_compile.do"
+acom "$dsn/src/ShiftRows.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\MixColums\ShiftRows\src\ShiftRows.vhd
+# Compile Entity "ShiftRows"
+# Compile Architecture "behavioral" of Entity "ShiftRows"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# Design: Design "aes" has been set as active.

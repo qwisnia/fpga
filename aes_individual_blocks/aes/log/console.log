@@ -1,0 +1,74 @@
+runscript -do "c:\My_Designs\MixColums\aes\src\default_compile.do"
+acom "$dsn/src/blk_mem_gen_v4_3.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\MixColums\aes\src\blk_mem_gen_v4_3.vhd
+# Compile Entity "blk_mem_gen_v4_3"
+# Compile Architecture "blk_mem_gen_v4_3_a" of Entity "blk_mem_gen_v4_3"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom "$dsn/src/aes_package.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\MixColums\aes\src\aes_package.vhd
+# Compile Package "aes_package"
+# Compile Package Body "aes_package"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom "$dsn/src/aes_top.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\MixColums\aes\src\aes_top.vhd
+# Compile Entity "aes"
+# Compile Architecture "behavioral" of Entity "aes"
+# Error: COMP96_0078: aes_top.vhd : (133, 9): Unknown identifier "round_cnd".
+# Error: COMP96_0133: aes_top.vhd : (133, 9): Cannot find object declaration.
+# Error: COMP96_0077: aes_top.vhd : (133, 9): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  16.0 [ms]
+# Error: DO_001 in file c:\My_Designs\MixColums\aes\src\default_compile.do line 3
+# Error: Cannot run c:\My_Designs\MixColums\aes\src\default_compile.do
+runscript -do "c:\My_Designs\MixColums\aes\src\default_compile.do"
+acom "$dsn/src/blk_mem_gen_v4_3.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\MixColums\aes\src\blk_mem_gen_v4_3.vhd
+# Compile Entity "blk_mem_gen_v4_3"
+# Compile Architecture "blk_mem_gen_v4_3_a" of Entity "blk_mem_gen_v4_3"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom "$dsn/src/aes_package.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\MixColums\aes\src\aes_package.vhd
+# Compile Package "aes_package"
+# Compile Package Body "aes_package"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom "$dsn/src/aes_top.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\MixColums\aes\src\aes_top.vhd
+# Compile Entity "aes"
+# Compile Architecture "behavioral" of Entity "aes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+runscript -do "c:\My_Designs\MixColums\aes\src\TestBench\aes_TB_runtest.do"
+SetActiveLib -work
+comp -include "$dsn\src\aes_top.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\MixColums\aes\src\aes_top.vhd
+# Compile Entity "aes"
+# Compile Architecture "behavioral" of Entity "aes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+comp -include "$dsn\src\TestBench\aes_TB.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\MixColums\aes\src\TestBench\aes_TB.vhd
+# Compile Entity "aes_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "aes_tb"
+# Compile Configuration "TESTBENCH_FOR_aes"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim +access +r TESTBENCH_FOR_aes 
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: The contents of package 'aes.aes_package' referenced in entity 'AddRoundKey' differ from the contents available during the compilation of this entity.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# Error: asim: cannot select specified top-level
+# Error: DO_001 in file c:\My_Designs\MixColums\aes\src\TestBench\aes_TB_runtest.do line 4
+# Error: Cannot run c:\My_Designs\MixColums\aes\src\TestBench\aes_TB_runtest.do

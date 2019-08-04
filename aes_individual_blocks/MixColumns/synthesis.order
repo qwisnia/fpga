@@ -1,0 +1,4 @@
+i<>.\src\MixColumns.vhd
+i<>.\src\mylib.vhd
+i<>.\src\TestBench\mixcolumn_TB.vhd
+i<>.\src\TestBench\mixcolumn_TB_tim_cfg.vhd

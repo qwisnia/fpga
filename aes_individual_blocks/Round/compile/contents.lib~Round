@@ -1,0 +1,6 @@
+208
+~E 1 "./src/TestBench/round_TB.vhd" 8 round_tb
+~A 1 "./src/TestBench/round_TB.vhd" 11 tb_architecture
+~E 1 "./src/round.vhd" 34 round
+~A 1 "./src/round.vhd" 44 behavioral
+~C 1 "./src/TestBench/round_TB.vhd" 80 testbench_for_round

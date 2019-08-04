@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\MixColums\library.cfg"  -j "c:\My_Designs\MixColums\MixColumns\projlib.cfg"  -d "c:\My_Designs\MixColums\MixColumns\compile"   -work mixcolumns  -O3 -e 100 "c:\My_Designs\MixColums\MixColumns\src\MixColumns.vhd" 

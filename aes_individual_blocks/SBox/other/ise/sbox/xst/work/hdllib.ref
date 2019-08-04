@@ -1,0 +1,5 @@
+AR sbox xillinx_8_dual_port_rom C:/My_Designs/MixColums/SBox/src/SBox.vhd sub00/vhpl01 1523814144
+AR sbox xillinx_4_dual_port_rom C:/My_Designs/MixColums/SBox/src/SBox.vhd sub00/vhpl02 1523814145
+AR sbox xillinx_2_dual_port_rom C:/My_Designs/MixColums/SBox/src/SBox.vhd sub00/vhpl03 1523814146
+AR sbox xillinx_1_dual_port_rom C:/My_Designs/MixColums/SBox/src/SBox.vhd sub00/vhpl04 1523814147
+EN sbox NULL C:/My_Designs/MixColums/SBox/src/SBox.vhd sub00/vhpl00 1523814143

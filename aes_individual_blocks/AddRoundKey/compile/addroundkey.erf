@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available." 
+MESSAGE "File: c:\My_Designs\MixColums\AddRoundKey\src\addroundkey.vhd" 
+MESSAGE "Compile Entity "AddRoundKey"" 
+MESSAGE "Compile Architecture "behavioral" of Entity "AddRoundKey"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  93.0 [ms]" 

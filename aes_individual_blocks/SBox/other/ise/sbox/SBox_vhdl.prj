@@ -1,0 +1,2 @@
+vhdl aes "C:\My_Designs\MixColums\aes\src\aes_package.vhd"
+vhdl work "C:\My_Designs\MixColums\SBox\src\SBox.vhd"

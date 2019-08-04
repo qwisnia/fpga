@@ -1,0 +1,2 @@
+vhdl aes "../../../../aes/src/aes_package.vhd"
+vhdl work "../../../src/SBox.vhd"

@@ -1,0 +1,73 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=addroundkey
+
+[Library]
+AddRoundKey=.\AddRoundKey.LIB
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=NONE
+REFRESH_FLOW=1
+FAMILY=Xilinx12x SPARTAN3
+IMPL_TOOL=
+SYNTH_TOOL=
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+AddRoundKey=.
+Active_lib=SPARTAN3
+xilinxun=SPARTAN3
+UnlinkedDesignLibrary=SPARTAN3
+DESIGNS=SPARTAN3
+
+[Folders]
+Name3=Makefiles
+Directory3=c:\My_Designs\MixColums\AddRoundKey\
+Extension3=mak
+Name4=Memory
+Directory4=c:\My_Designs\MixColums\AddRoundKey\src
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=c:\My_Designs\MixColums\AddRoundKey\
+Extension5=dll
+Name6=PDF
+Directory6=c:\My_Designs\MixColums\AddRoundKey\
+Extension6=pdf
+Name7=HTML
+Directory7=c:\My_Designs\MixColums\AddRoundKey\
+Extension7=
+
+[Groups]
+TestBench=1
+
+[Files]
+/addroundkey.vhd=-1
+TestBench/addroundkey_TB.vhd=-1
+TestBench/addroundkey_TB_runtest.do=-1
+
+[Files.Data]
+.\src\addroundkey.vhd=VHDL Source Code
+.\src\TestBench\addroundkey_TB.vhd=VHDL Test Bench
+.\src\TestBench\addroundkey_TB_runtest.do=Macro
+

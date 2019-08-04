@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\MixColums\library.cfg"  -j "c:\My_Designs\MixColums\SBox\projlib.cfg"  -d "c:\My_Designs\MixColums\SBox\compile"   -work SBox  -O3 -e 100 "c:\My_Designs\MixColums\SBox\src\SBox.vhd" 

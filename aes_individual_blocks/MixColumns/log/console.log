@@ -1,0 +1,32 @@
+runscript -do "c:\My_Designs\MixColums\MixColumns\default_compile.do"
+acom "$dsn/src/common.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\MixColums\MixColumns\src\common.vhd
+# Compile Package "common"
+# Compile Package Body "common"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+acom "$dsn/src/MixColumn.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\MixColums\MixColumns\src\MixColumn.vhd
+# Error: COMP96_0001: Cannot find source file "c:\My_Designs\MixColums\MixColumns\src\MixColumn.vhd".
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
+# Error: DO_001 in file c:\My_Designs\MixColums\MixColumns\default_compile.do line 2
+# Error: Cannot run c:\My_Designs\MixColums\MixColumns\default_compile.do
+runscript -do "c:\My_Designs\MixColums\MixColumns\default_compile.do"
+acom "$dsn/src/common.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\MixColums\MixColumns\src\common.vhd
+# Compile Package "common"
+# Compile Package Body "common"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom "$dsn/src/MixColumns.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\MixColums\MixColumns\src\MixColumns.vhd
+# Compile Entity "MixColumns"
+# Compile Architecture "behavioral_concurent" of Entity "MixColumns"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# Design: Design "SBox" has been set as active.

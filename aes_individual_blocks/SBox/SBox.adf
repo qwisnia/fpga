@@ -1,0 +1,81 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=SBox
+
+[Library]
+SBox=.\SBox.LIB
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=NONE
+REFRESH_FLOW=1
+FAMILY=Xilinx12x SPARTAN3
+IMPL_TOOL=
+SYNTH_TOOL=
+fileopeninsrc=1
+fileopenfolder=C:\My_Designs\MixColums\SBox\src
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+SBox=.
+Active_lib=SPARTAN3
+xilinxun=SPARTAN3
+UnlinkedDesignLibrary=SPARTAN3
+DESIGNS=SPARTAN3
+
+[Folders]
+Name3=Makefiles
+Directory3=c:\My_Designs\MixColums\SBox\
+Extension3=mak
+Name4=Memory
+Directory4=c:\My_Designs\MixColums\SBox\src
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=c:\My_Designs\MixColums\SBox\
+Extension5=dll
+Name6=PDF
+Directory6=c:\My_Designs\MixColums\SBox\
+Extension6=pdf
+Name7=HTML
+Directory7=c:\My_Designs\MixColums\SBox\
+Extension7=
+
+[Groups]
+TestBench=1
+
+[Files]
+/SBox.vhd=-1
+/blk_mem_gen_v4_3.mif=-1
+/default_compile.do=-1
+TestBench/sbox_TB.vhd=-1
+TestBench/sbox_TB_runtest.do=-1
+TestBench/sbox_TB_tim_cfg.vhd=-1
+
+[Files.Data]
+.\src\SBox.vhd=VHDL Source Code
+.\src\blk_mem_gen_v4_3.mif=Memory File
+.\src\default_compile.do=Macro
+.\src\TestBench\sbox_TB.vhd=VHDL Source Code
+.\src\TestBench\sbox_TB_runtest.do=Macro
+.\src\TestBench\sbox_TB_tim_cfg.vhd=VHDL Source Code
+

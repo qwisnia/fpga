@@ -1,0 +1,4 @@
+.\src\aes_package.vhd
+.\src\blk_mem_gen_v4_3.vhd
+.\src\aes_top.vhd
+.\src\TestBench\aes_TB.vhd

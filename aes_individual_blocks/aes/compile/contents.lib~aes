@@ -1,0 +1,8 @@
+68
+~E 1 "./src/aes_top.vhd" 38 aes
+~A 1 "./src/aes_top.vhd" 50 behavioral
+~E 1 "./src/blk_mem_gen_v4_3.vhd" 43 blk_mem_gen_v4_3
+~A 1 "./src/blk_mem_gen_v4_3.vhd" 53 blk_mem_gen_v4_3_a
+~E 1 "./src/TestBench/aes_TB.vhd" 8 aes_tb
+~A 1 "./src/TestBench/aes_TB.vhd" 11 tb_architecture
+~C 1 "./src/TestBench/aes_TB.vhd" 81 testbench_for_aes

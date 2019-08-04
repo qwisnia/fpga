@@ -1,0 +1,83 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=Round
+
+[Library]
+Round=.\Round.LIB
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=NONE
+REFRESH_FLOW=1
+FAMILY=Xilinx12x SPARTAN3
+IMPL_TOOL=
+SYNTH_TOOL=
+fileopeninsrc=1
+fileopenfolder=C:\My_Designs\MixColums\Round\src
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+Round=.
+Active_lib=SPARTAN3
+xilinxun=SPARTAN3
+UnlinkedDesignLibrary=SPARTAN3
+DESIGNS=SPARTAN3
+
+[Folders]
+Name3=Makefiles
+Directory3=c:\My_Designs\MixColums\Round\
+Extension3=mak
+Name4=Memory
+Directory4=c:\My_Designs\MixColums\Round\src
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=c:\My_Designs\MixColums\Round\
+Extension5=dll
+Name6=PDF
+Directory6=c:\My_Designs\MixColums\Round\
+Extension6=pdf
+Name7=HTML
+Directory7=c:\My_Designs\MixColums\Round\
+Extension7=
+
+[Groups]
+TestBench=1
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=round|behavioral|0 round_tb|testbench_for_round|1
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/round.vhd=-1
+/blk_mem_gen_v4_3.mif=-1
+TestBench/round_TB.vhd=-1
+TestBench/round_TB_runtest.do=-1
+
+[Files.Data]
+.\src\round.vhd=VHDL Source Code
+.\src\blk_mem_gen_v4_3.mif=Memory File
+.\src\TestBench\round_TB.vhd=VHDL Test Bench
+.\src\TestBench\round_TB_runtest.do=Macro
+

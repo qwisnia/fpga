@@ -1,0 +1,13 @@
+618
+~E 1 "./src/TestBench/sbox_TB.vhd" 8 sbox_tb
+~A 1 "./src/TestBench/sbox_TB.vhd" 11 tb_architecture
+~E 1 "./src/SBox.vhd" 26 sbox
+~A 1 "./src/SBox.vhd" 35 xillinx_8_dual_port_rom
+~A 1 "./src/SBox.vhd" 35 xilinx_8_dual_port_rom
+~A 1 "./src/SBox.vhd" 124 xilinx_2_dual_port_rom
+~A 1 "./src/SBox.vhd" 194 xilinx_1_dual_port_rom
+~A 1 "./src/SBox.vhd" 68 xilinx_4_dual_port_rom
+~A 1 "./src/SBox.vhd" 124 xillinx_2_dual_port_rom
+~A 1 "./src/SBox.vhd" 194 xillinx_1_dual_port_rom
+~A 1 "./src/SBox.vhd" 68 xillinx_4_dual_port_rom
+~C 1 "./src/TestBench/sbox_TB.vhd" 67 testbench_for_sbox

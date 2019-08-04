@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "C:/My_Designs/MixColums/SBox/other/ise/sbox/SBox.xst" -ofn "C:/My_Designs/MixColums/SBox/other/ise/sbox/SBox.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/MixColums/SBox/other/ise/sbox/SBox.xst" -ofn "C:/My_Designs/MixColums/SBox/other/ise/sbox/SBox.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/MixColums/SBox/other/ise/sbox/SBox.xst" -ofn "C:/My_Designs/MixColums/SBox/other/ise/sbox/SBox.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/MixColums/SBox/other/ise/sbox/SBox.xst" -ofn "C:/My_Designs/MixColums/SBox/other/ise/sbox/SBox.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/MixColums/SBox/other/ise/sbox/SBox.xst" -ofn "C:/My_Designs/MixColums/SBox/other/ise/sbox/SBox.syr" 
+xst -intstyle ise -ifn "C:/My_Designs/MixColums/SBox/other/ise/sbox/SBox.xst" -ofn "C:/My_Designs/MixColums/SBox/other/ise/sbox/SBox.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200a-vq100-4 SBox.ngc SBox.ngd  
+xst -intstyle ise -ifn "C:/My_Designs/MixColums/SBox/other/ise/sbox/SBox.xst" -ofn "C:/My_Designs/MixColums/SBox/other/ise/sbox/SBox.syr" 

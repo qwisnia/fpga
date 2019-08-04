@@ -1,0 +1,84 @@
+I 000051 55 2008          1523998405458 behavioral
+(_unit VHDL (addroundkey 0 26 (behavioral 0 36 ))
+	(_version v80)
+	(_time 1523998405459 2018.04.17 21:53:25)
+	(_source (\./src/addroundkey.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(aes(aes_package)))
+	(_code 7420777574232463777b322f207221727072267271)
+	(_entity
+		(_time 1523998405456)
+		(_use (std(standard))(ieee(std_logic_1164))(aes(aes_package)))
+	)
+	(_generate GEN_XOR 0 40 (_for ~INTEGER~range~0~to~15~13 )
+		(_object
+			(_constant (_internal byte_no ~INTEGER~range~0~to~15~13 0 40 (_architecture )))
+			(_process
+				(line__42(_architecture 0 0 42 (_assignment (_simple)(_target(4(_index 1)))(_sensitivity(2(_index 2))(3(_index 3)))(_read(2(_index 4))(3(_index 5))))))
+			)
+			(_subprogram
+			)
+		)
+	)
+	(_object
+		(_port (_internal clk ~extieee.std_logic_1164.STD_LOGIC 0 28 (_entity (_in ))))
+		(_port (_internal n_reset ~extieee.std_logic_1164.STD_LOGIC 0 29 (_entity (_in ))))
+		(_port (_internal data_in ~extaes.aes_package.state_t 0 30 (_entity (_in ))))
+		(_port (_internal key_in ~extaes.aes_package.key_t 0 31 (_entity (_in ))))
+		(_port (_internal data_out ~extaes.aes_package.state_t 0 32 (_entity (_out ))))
+		(_type (_internal ~INTEGER~range~0~to~15~13 0 40 (_scalar (_to (i 0)(i 15)))))
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extaes.aes_package.~STD_LOGIC_VECTOR{7~downto~0}~152 (aes aes_package ~STD_LOGIC_VECTOR{7~downto~0}~152)))
+		(_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+		(_variable (_external aes.aes_package.state_length(aes aes_package state_length)))
+		(_type (_external ~extaes.aes_package.state_t (aes aes_package state_t)))
+		(_type (_external ~extaes.aes_package.~STD_LOGIC_VECTOR{7~downto~0}~155 (aes aes_package ~STD_LOGIC_VECTOR{7~downto~0}~155)))
+		(_type (_external ~extaes.aes_package.key_t (aes aes_package key_t)))
+	)
+	(_model . behavioral 6 -1
+	)
+)
+V 000051 55 2008          1523998427903 behavioral
+(_unit VHDL (addroundkey 0 26 (behavioral 0 36 ))
+	(_version v80)
+	(_time 1523998427904 2018.04.17 21:53:47)
+	(_source (\./src/addroundkey.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(aes(aes_package)))
+	(_code 191f491e144e490e1a165f424d1f4c1f1d1f4b1f1c)
+	(_entity
+		(_time 1523998405455)
+		(_use (std(standard))(ieee(std_logic_1164))(aes(aes_package)))
+	)
+	(_generate GEN_XOR 0 40 (_for ~INTEGER~range~0~to~15~13 )
+		(_object
+			(_constant (_internal byte_no ~INTEGER~range~0~to~15~13 0 40 (_architecture )))
+			(_process
+				(line__42(_architecture 0 0 42 (_assignment (_simple)(_target(4(_index 1)))(_sensitivity(2(_index 2))(3(_index 3)))(_read(2(_index 4))(3(_index 5))))))
+			)
+			(_subprogram
+			)
+		)
+	)
+	(_object
+		(_port (_internal clk ~extieee.std_logic_1164.STD_LOGIC 0 28 (_entity (_in ))))
+		(_port (_internal n_reset ~extieee.std_logic_1164.STD_LOGIC 0 29 (_entity (_in ))))
+		(_port (_internal data_in ~extaes.aes_package.state_t 0 30 (_entity (_in ))))
+		(_port (_internal key_in ~extaes.aes_package.key_t 0 31 (_entity (_in ))))
+		(_port (_internal data_out ~extaes.aes_package.state_t 0 32 (_entity (_out ))))
+		(_type (_internal ~INTEGER~range~0~to~15~13 0 40 (_scalar (_to (i 0)(i 15)))))
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extaes.aes_package.~STD_LOGIC_VECTOR{7~downto~0}~152 (aes aes_package ~STD_LOGIC_VECTOR{7~downto~0}~152)))
+		(_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+		(_variable (_external aes.aes_package.state_length(aes aes_package state_length)))
+		(_type (_external ~extaes.aes_package.state_t (aes aes_package state_t)))
+		(_type (_external ~extaes.aes_package.~STD_LOGIC_VECTOR{7~downto~0}~155 (aes aes_package ~STD_LOGIC_VECTOR{7~downto~0}~155)))
+		(_type (_external ~extaes.aes_package.key_t (aes aes_package key_t)))
+	)
+	(_model . behavioral 6 -1
+	)
+)

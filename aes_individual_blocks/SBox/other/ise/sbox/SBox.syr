@@ -1,0 +1,708 @@
+Release 12.3 - xst M.70d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Reading design: SBox.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "SBox.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "SBox"
+Output Format                      : NGC
+Target Device                      : xc3s200a-4-vq100
+
+---- Source Options
+Top Module Name                    : SBox
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/My_Designs/MixColums/aes/src/aes_package.vhd" in Library aes.
+Architecture aes_package of Entity aes_package is up to date.
+Compiling vhdl file "C:/My_Designs/MixColums/SBox/src/SBox.vhd" in Library work.
+Architecture xillinx_8_dual_port_rom of Entity sbox is up to date.
+Architecture xillinx_4_dual_port_rom of Entity sbox is up to date.
+Architecture xillinx_2_dual_port_rom of Entity sbox is up to date.
+Architecture xillinx_1_dual_port_rom of Entity sbox is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <SBox> in library <work> (architecture <xillinx_1_dual_port_rom>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <SBox> in library <work> (Architecture <xillinx_1_dual_port_rom>).
+WARNING:Xst:2211 - "C:/My_Designs/MixColums/SBox/src/SBox.vhd" line 269: Instantiating black box module <blk_mem_gen_v4_3>.
+Entity <SBox> analyzed. Unit <SBox> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <SBox>.
+    Related source file is "C:/My_Designs/MixColums/SBox/src/SBox.vhd".
+WARNING:Xst:737 - Found 8-bit latch for signal <data_out_0>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <data_out_10>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <data_out_1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <data_out_11>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <data_out_2>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <data_out_12>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <data_out_3>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <data_out_13>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <data_out_4>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <data_out_14>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <data_out_5>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <data_out_15>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <data_out_6>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <data_out_7>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <data_out_8>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <data_out_9>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 8-bit register for signal <sel>.
+Unit <SBox> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 1
+ 8-bit register                                        : 1
+# Latches                                              : 16
+ 8-bit latch                                           : 16
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 8
+ Flip-Flops                                            : 8
+# Latches                                              : 16
+ 8-bit latch                                           : 16
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <SBox> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block SBox, actual ratio is 5.
+FlipFlop sel_0 has been replicated 1 time(s)
+FlipFlop sel_1 has been replicated 1 time(s)
+FlipFlop sel_2 has been replicated 1 time(s)
+FlipFlop sel_3 has been replicated 1 time(s)
+FlipFlop sel_5 has been replicated 1 time(s)
+FlipFlop sel_6 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 14
+ Flip-Flops                                            : 14
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : SBox.ngr
+Top Level Output File Name         : SBox
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 258
+
+Cell Usage :
+# BELS                             : 161
+#      INV                         : 1
+#      LUT3                        : 48
+#      LUT4                        : 64
+#      MUXF5                       : 48
+# FlipFlops/Latches                : 142
+#      FDC                         : 12
+#      FDP                         : 2
+#      LD                          : 128
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 257
+#      IBUF                        : 129
+#      OBUF                        : 128
+# Others                           : 1
+#      blk_mem_gen_v4_3            : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200avq100-4 
+
+ Number of Slices:                       57  out of   1792     3%  
+ Number of Slice Flip Flops:             14  out of   3584     0%  
+ Number of 4 input LUTs:                113  out of   3584     3%  
+ Number of IOs:                         258
+ Number of bonded IOBs:                 258  out of     68   379% (*) 
+    IOB Flip Flops:                     128
+ Number of GCLKs:                         1  out of     24     4%  
+
+WARNING:Xst:1336 -  (*) More than 100% of Device resources are used
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+sel_6                              | NONE(data_out_9_0)     | 16    |
+sel_5                              | NONE(data_out_8_0)     | 16    |
+sel_4                              | NONE(data_out_7_0)     | 16    |
+sel_3                              | NONE(data_out_6_0)     | 16    |
+sel_0                              | NONE(data_out_15_0)    | 16    |
+sel_7                              | NONE(data_out_14_0)    | 16    |
+sel_2                              | NONE(data_out_3_0)     | 16    |
+sel_1                              | NONE(data_out_2_0)     | 16    |
+clk                                | BUFGP                  | 14    |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+sel_Acst_inv(sel_Acst_inv1_INV_0:O)| NONE(sel_0)            | 14    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 2.106ns (Maximum Frequency: 474.869MHz)
+   Minimum input arrival time before clock: 1.009ns
+   Maximum output required time after clock: 5.668ns
+   Maximum combinational path delay: 4.787ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 2.106ns (frequency: 474.869MHz)
+  Total number of paths / destination ports: 14 / 14
+-------------------------------------------------------------------------
+Delay:               2.106ns (Levels of Logic = 0)
+  Source:            sel_4 (FF)
+  Destination:       sel_5 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: sel_4 to sel_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             34   0.591   1.263  sel_4 (sel_4)
+     FDC:D                     0.252          sel_5
+    ----------------------------------------
+    Total                      2.106ns (0.843ns logic, 1.263ns route)
+                                       (40.0% logic, 60.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'sel_6'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              1.009ns (Levels of Logic = 0)
+  Source:            ROM_MEMORY:douta<0> (PAD)
+  Destination:       data_out_9_0 (LATCH)
+  Destination Clock: sel_6 falling
+
+  Data Path: ROM_MEMORY:douta<0> to data_out_9_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    blk_mem_gen_v4_3:douta<0>    8   0.000   0.757  ROM_MEMORY (dout<0><0>)
+     LD:D                      0.252          data_out_9_0
+    ----------------------------------------
+    Total                      1.009ns (0.252ns logic, 0.757ns route)
+                                       (25.0% logic, 75.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'sel_5'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              1.009ns (Levels of Logic = 0)
+  Source:            ROM_MEMORY:douta<0> (PAD)
+  Destination:       data_out_8_0 (LATCH)
+  Destination Clock: sel_5 falling
+
+  Data Path: ROM_MEMORY:douta<0> to data_out_8_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    blk_mem_gen_v4_3:douta<0>    8   0.000   0.757  ROM_MEMORY (dout<0><0>)
+     LD:D                      0.252          data_out_8_0
+    ----------------------------------------
+    Total                      1.009ns (0.252ns logic, 0.757ns route)
+                                       (25.0% logic, 75.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'sel_4'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              1.009ns (Levels of Logic = 0)
+  Source:            ROM_MEMORY:doutb<0> (PAD)
+  Destination:       data_out_7_0 (LATCH)
+  Destination Clock: sel_4 falling
+
+  Data Path: ROM_MEMORY:doutb<0> to data_out_7_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    blk_mem_gen_v4_3:doutb<0>    8   0.000   0.757  ROM_MEMORY (dout<1><0>)
+     LD:D                      0.252          data_out_7_0
+    ----------------------------------------
+    Total                      1.009ns (0.252ns logic, 0.757ns route)
+                                       (25.0% logic, 75.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'sel_3'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              1.009ns (Levels of Logic = 0)
+  Source:            ROM_MEMORY:doutb<0> (PAD)
+  Destination:       data_out_6_0 (LATCH)
+  Destination Clock: sel_3 falling
+
+  Data Path: ROM_MEMORY:doutb<0> to data_out_6_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    blk_mem_gen_v4_3:doutb<0>    8   0.000   0.757  ROM_MEMORY (dout<1><0>)
+     LD:D                      0.252          data_out_6_0
+    ----------------------------------------
+    Total                      1.009ns (0.252ns logic, 0.757ns route)
+                                       (25.0% logic, 75.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'sel_0'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              1.009ns (Levels of Logic = 0)
+  Source:            ROM_MEMORY:doutb<0> (PAD)
+  Destination:       data_out_15_0 (LATCH)
+  Destination Clock: sel_0 falling
+
+  Data Path: ROM_MEMORY:doutb<0> to data_out_15_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    blk_mem_gen_v4_3:doutb<0>    8   0.000   0.757  ROM_MEMORY (dout<1><0>)
+     LD:D                      0.252          data_out_15_0
+    ----------------------------------------
+    Total                      1.009ns (0.252ns logic, 0.757ns route)
+                                       (25.0% logic, 75.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'sel_7'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              1.009ns (Levels of Logic = 0)
+  Source:            ROM_MEMORY:doutb<0> (PAD)
+  Destination:       data_out_14_0 (LATCH)
+  Destination Clock: sel_7 falling
+
+  Data Path: ROM_MEMORY:doutb<0> to data_out_14_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    blk_mem_gen_v4_3:doutb<0>    8   0.000   0.757  ROM_MEMORY (dout<1><0>)
+     LD:D                      0.252          data_out_14_0
+    ----------------------------------------
+    Total                      1.009ns (0.252ns logic, 0.757ns route)
+                                       (25.0% logic, 75.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'sel_2'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              1.009ns (Levels of Logic = 0)
+  Source:            ROM_MEMORY:doutb<0> (PAD)
+  Destination:       data_out_3_0 (LATCH)
+  Destination Clock: sel_2 falling
+
+  Data Path: ROM_MEMORY:doutb<0> to data_out_3_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    blk_mem_gen_v4_3:doutb<0>    8   0.000   0.757  ROM_MEMORY (dout<1><0>)
+     LD:D                      0.252          data_out_3_0
+    ----------------------------------------
+    Total                      1.009ns (0.252ns logic, 0.757ns route)
+                                       (25.0% logic, 75.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'sel_1'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              1.009ns (Levels of Logic = 0)
+  Source:            ROM_MEMORY:doutb<0> (PAD)
+  Destination:       data_out_2_0 (LATCH)
+  Destination Clock: sel_1 falling
+
+  Data Path: ROM_MEMORY:doutb<0> to data_out_2_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    blk_mem_gen_v4_3:doutb<0>    8   0.000   0.757  ROM_MEMORY (dout<1><0>)
+     LD:D                      0.252          data_out_2_0
+    ----------------------------------------
+    Total                      1.009ns (0.252ns logic, 0.757ns route)
+                                       (25.0% logic, 75.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'sel_1'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              5.668ns (Levels of Logic = 1)
+  Source:            data_out_0_7 (LATCH)
+  Destination:       data_out<0><7> (PAD)
+  Source Clock:      sel_1 falling
+
+  Data Path: data_out_0_7 to data_out<0><7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.728   0.420  data_out_0_7 (data_out_0_7)
+     OBUF:I->O                 4.520          data_out_0__7_OBUF (data_out<0><7>)
+    ----------------------------------------
+    Total                      5.668ns (5.248ns logic, 0.420ns route)
+                                       (92.6% logic, 7.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'sel_2'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              5.668ns (Levels of Logic = 1)
+  Source:            data_out_1_7 (LATCH)
+  Destination:       data_out<1><7> (PAD)
+  Source Clock:      sel_2 falling
+
+  Data Path: data_out_1_7 to data_out<1><7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.728   0.420  data_out_1_7 (data_out_1_7)
+     OBUF:I->O                 4.520          data_out_1__7_OBUF (data_out<1><7>)
+    ----------------------------------------
+    Total                      5.668ns (5.248ns logic, 0.420ns route)
+                                       (92.6% logic, 7.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'sel_3'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              5.668ns (Levels of Logic = 1)
+  Source:            data_out_4_7 (LATCH)
+  Destination:       data_out<4><7> (PAD)
+  Source Clock:      sel_3 falling
+
+  Data Path: data_out_4_7 to data_out<4><7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.728   0.420  data_out_4_7 (data_out_4_7)
+     OBUF:I->O                 4.520          data_out_4__7_OBUF (data_out<4><7>)
+    ----------------------------------------
+    Total                      5.668ns (5.248ns logic, 0.420ns route)
+                                       (92.6% logic, 7.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'sel_4'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              5.668ns (Levels of Logic = 1)
+  Source:            data_out_5_7 (LATCH)
+  Destination:       data_out<5><7> (PAD)
+  Source Clock:      sel_4 falling
+
+  Data Path: data_out_5_7 to data_out<5><7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.728   0.420  data_out_5_7 (data_out_5_7)
+     OBUF:I->O                 4.520          data_out_5__7_OBUF (data_out<5><7>)
+    ----------------------------------------
+    Total                      5.668ns (5.248ns logic, 0.420ns route)
+                                       (92.6% logic, 7.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'sel_5'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              5.668ns (Levels of Logic = 1)
+  Source:            data_out_8_7 (LATCH)
+  Destination:       data_out<8><7> (PAD)
+  Source Clock:      sel_5 falling
+
+  Data Path: data_out_8_7 to data_out<8><7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.728   0.420  data_out_8_7 (data_out_8_7)
+     OBUF:I->O                 4.520          data_out_8__7_OBUF (data_out<8><7>)
+    ----------------------------------------
+    Total                      5.668ns (5.248ns logic, 0.420ns route)
+                                       (92.6% logic, 7.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'sel_6'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              5.668ns (Levels of Logic = 1)
+  Source:            data_out_9_7 (LATCH)
+  Destination:       data_out<9><7> (PAD)
+  Source Clock:      sel_6 falling
+
+  Data Path: data_out_9_7 to data_out<9><7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.728   0.420  data_out_9_7 (data_out_9_7)
+     OBUF:I->O                 4.520          data_out_9__7_OBUF (data_out<9><7>)
+    ----------------------------------------
+    Total                      5.668ns (5.248ns logic, 0.420ns route)
+                                       (92.6% logic, 7.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'sel_7'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              5.668ns (Levels of Logic = 1)
+  Source:            data_out_12_7 (LATCH)
+  Destination:       data_out<12><7> (PAD)
+  Source Clock:      sel_7 falling
+
+  Data Path: data_out_12_7 to data_out<12><7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.728   0.420  data_out_12_7 (data_out_12_7)
+     OBUF:I->O                 4.520          data_out_12__7_OBUF (data_out<12><7>)
+    ----------------------------------------
+    Total                      5.668ns (5.248ns logic, 0.420ns route)
+                                       (92.6% logic, 7.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'sel_0'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              5.668ns (Levels of Logic = 1)
+  Source:            data_out_13_7 (LATCH)
+  Destination:       data_out<13><7> (PAD)
+  Source Clock:      sel_0 falling
+
+  Data Path: data_out_13_7 to data_out<13><7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.728   0.420  data_out_13_7 (data_out_13_7)
+     OBUF:I->O                 4.520          data_out_13__7_OBUF (data_out<13><7>)
+    ----------------------------------------
+    Total                      5.668ns (5.248ns logic, 0.420ns route)
+                                       (92.6% logic, 7.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 224 / 16
+-------------------------------------------------------------------------
+Offset:              5.444ns (Levels of Logic = 5)
+  Source:            sel_5 (FF)
+  Destination:       ROM_MEMORY:addra<7> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: sel_5 to ROM_MEMORY:addra<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             48   0.591   1.410  sel_5 (sel_5)
+     LUT3:I0->O            1   0.648   0.000  addr_1_mux0000<7>73_SW01 (addr_1_mux0000<7>73_SW0)
+     MUXF5:I1->O           1   0.276   0.500  addr_1_mux0000<7>73_SW0_f5 (N120)
+     LUT4:I1->O            1   0.643   0.000  addr_1_mux0000<7>114_SW02 (addr_1_mux0000<7>114_SW01)
+     MUXF5:I0->O           1   0.276   0.452  addr_1_mux0000<7>114_SW0_f5 (N88)
+     LUT4:I2->O            0   0.648   0.000  addr_1_mux0000<7>114 (addr<1><7>)
+    blk_mem_gen_v4_3:addrb<7>        0.000          ROM_MEMORY
+    ----------------------------------------
+    Total                      5.444ns (3.082ns logic, 2.362ns route)
+                                       (56.6% logic, 43.4% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 178 / 18
+-------------------------------------------------------------------------
+Delay:               4.787ns (Levels of Logic = 6)
+  Source:            data_in<13><7> (PAD)
+  Destination:       ROM_MEMORY:addra<7> (PAD)
+
+  Data Path: data_in<13><7> to ROM_MEMORY:addra<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.849   0.500  data_in_13__7_IBUF (data_in_13__7_IBUF)
+     LUT3:I1->O            1   0.643   0.000  addr_0_mux0000<7>72_SW02 (addr_0_mux0000<7>72_SW01)
+     MUXF5:I0->O           1   0.276   0.500  addr_0_mux0000<7>72_SW0_f5 (N136)
+     LUT4:I1->O            1   0.643   0.000  addr_0_mux0000<7>113_SW02 (addr_0_mux0000<7>113_SW01)
+     MUXF5:I0->O           1   0.276   0.452  addr_0_mux0000<7>113_SW0_f5 (N104)
+     LUT4:I2->O            0   0.648   0.000  addr_0_mux0000<7>113 (addr<0><7>)
+    blk_mem_gen_v4_3:addra<7>        0.000          ROM_MEMORY
+    ----------------------------------------
+    Total                      4.787ns (3.335ns logic, 1.452ns route)
+                                       (69.7% logic, 30.3% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 3.18 secs
+ 
+--> 
+
+Total memory usage is 223024 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   18 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

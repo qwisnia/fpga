@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\MixColums\library.cfg"  -j "c:\My_Designs\MixColums\AddRoundKey\projlib.cfg"  -d "c:\My_Designs\MixColums\AddRoundKey\compile"   -work addroundkey  -O3 -e 100 -2002 "c:\My_Designs\MixColums\AddRoundKey\src\addroundkey.vhd" 

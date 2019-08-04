@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\MixColums\library.cfg"  -j "c:\My_Designs\MixColums\Round\projlib.cfg"  -d "c:\My_Designs\MixColums\Round\compile"   -work Round  -O3 -e 100 -2002 "c:\My_Designs\MixColums\Round\src\TestBench\round_TB.vhd" 

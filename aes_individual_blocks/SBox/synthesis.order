@@ -1,0 +1,3 @@
+i<>.\src\SBox.vhd
+i<>.\src\TestBench\sbox_TB.vhd
+i<>.\src\TestBench\sbox_TB_tim_cfg.vhd

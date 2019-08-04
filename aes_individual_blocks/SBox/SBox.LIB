@@ -1,0 +1,80 @@
+timestamp=1529845507967
+
+[sbox]
+A/xilinx_1_dual_port_rom=21|./src/SBox.vhd|194|1*100412
+A/xilinx_2_dual_port_rom=21|./src/SBox.vhd|124|1*94572
+A/xilinx_4_dual_port_rom=21|./src/SBox.vhd|68|1*89650
+A/xilinx_8_dual_port_rom=21|./src/SBox.vhd|35|1*86426
+A/xillinx_1_dual_port_rom=21|./src/SBox.vhd|194|1*60533
+A/xillinx_2_dual_port_rom=21|./src/SBox.vhd|124|1*54690
+A/xillinx_4_dual_port_rom=21|./src/SBox.vhd|68|1*49765
+A/xillinx_8_dual_port_rom=21|./src/SBox.vhd|35|1*46538
+B/xilinx_1_dual_port_rom=3*22105
+B/xilinx_2_dual_port_rom=3*20336
+B/xilinx_4_dual_port_rom=3*19069
+B/xilinx_8_dual_port_rom=3*18829
+B/xillinx_1_dual_port_rom=3*14053
+B/xillinx_2_dual_port_rom=3*12283
+B/xillinx_4_dual_port_rom=3*11015
+B/xillinx_8_dual_port_rom=3*10774
+C=8.3.2120.sp1.14.3884  (Windows)|00000003789cd3f5370600015b00b0
+C/xilinx_1_dual_port_rom=8.3.2120.sp1.14.3884  (Windows)|00000003789cd3f5370600015b00b0
+C/xilinx_2_dual_port_rom=8.3.2120.sp1.14.3884  (Windows)|00000003789cd3f5370600015b00b0
+C/xilinx_4_dual_port_rom=8.3.2120.sp1.14.3884  (Windows)|00000003789cd3f5370600015b00b0
+C/xilinx_8_dual_port_rom=8.3.2120.sp1.14.3884  (Windows)|00000003789cd3f5370600015b00b0
+C/xillinx_1_dual_port_rom=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+C/xillinx_2_dual_port_rom=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+C/xillinx_4_dual_port_rom=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+C/xillinx_8_dual_port_rom=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+I=0*10906
+I/xilinx_1_dual_port_rom=0*18775
+I/xilinx_2_dual_port_rom=0*16454
+I/xilinx_4_dual_port_rom=0*14400
+I/xilinx_8_dual_port_rom=0*12798
+I/xillinx_1_dual_port_rom=0*11809
+I/xillinx_2_dual_port_rom=0*11561
+I/xillinx_4_dual_port_rom=0*11313
+I/xillinx_8_dual_port_rom=0*11065
+M=11|0|v80|1529845507840|./src/SBox.vhd|0*10564*0xe64cbf05a1a15869c3cfda04ab8ffdeaf0323199|0*10837*0xab32bc1a2daf049573e14469f634e0e6
+M/xilinx_1_dual_port_rom=21|0|v80|1529845507870|./src/SBox.vhd|0*16701*0xee86df00b421d5182e8640515667a2fdc5eff14c|0*18680*0xb33770ff1c10522f9491560174ac8e6c
+M/xilinx_2_dual_port_rom=21|0|v80|1529845507866|./src/SBox.vhd|0*14647*0x7509d1edf32f2b2ebf83c86318c6ccaad1747232|0*16359*0xb33770ff1c10522f9491560174ac8e6c
+M/xilinx_4_dual_port_rom=21|0|v80|1529845507862|./src/SBox.vhd|0*13045*0xf090999300a64cddad663b5c69ab256136928737|0*14305*0xb33770ff1c10522f9491560174ac8e6c
+M/xilinx_8_dual_port_rom=21|0|v80|1529845507858|./src/SBox.vhd|0*12057*0xf7f1f98a6992d40e00d695083e76098ff29340d2|0*12703*0xb33770ff1c10522f9491560174ac8e6c
+M/xillinx_1_dual_port_rom=21|0|v80|1523998487546|./src/SBox.vhd|0*5352*0x75e8b043289b7c1b58b1e24274397efd47aaed24|0*7334*0xb33770ff1c10522f9491560174ac8e6c
+M/xillinx_2_dual_port_rom=21|0|v80|1523998487542|./src/SBox.vhd|0*3293*0xd7faae9fc6d79492fd102f3e80e88318c1d151d6|0*5008*0xb33770ff1c10522f9491560174ac8e6c
+M/xillinx_4_dual_port_rom=21|0|v80|1523998487538|./src/SBox.vhd|0*1686*0x1b4c2a67e7570d6f07b62718572aca5bfd37fb59|0*2949*0xb33770ff1c10522f9491560174ac8e6c
+M/xillinx_8_dual_port_rom=21|0|v80|1523998487534|./src/SBox.vhd|0*693*0x5142f6752ed295767b8d3a5d6d0ad4a029699e40|0*1342*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/SBox.vhd|26
+
+[sbox_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./src/TestBench/sbox_TB.vhd|11|1*43187
+B/tb_architecture=3*10166
+C=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+C/tb_architecture=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+I=0*8025
+I/tb_architecture=I/TB_ARCHITECTURE 0*9540
+M=11|0|v80|1523825190444|./src/TestBench/sbox_TB.vhd|0*7745*0xa4d0c6959e3ca97a14d9c358e2e043aab671f2af|0*7940*0xab32bc1a2daf049573e14469f634e0e6
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|v80|1523825253191|./src/TestBench/sbox_TB.vhd|0*8187*0x99837373fcf8a29fd85011090effadda97e1b4cc|0*9436*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/TestBench/sbox_TB.vhd|8
+
+[testbench_for_sbox]
+C=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+E=1*46102
+I=0*10140
+M=2|0|v80|1523825253194|./src/TestBench/sbox_TB.vhd|0*9769*0xac57ba009833407691cf2bbd127376d73f5af19d|0*10034*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/TestBench/sbox_TB.vhd|67
+
+[~A]
+ModifyID=618
+Version=73
+
+[~MFT]
+0=53|0SBox.mgf|18775|1685
+1=37|1SBox.mgf|100412|63125
+3=34|3SBox.mgf|22105|13442
+
+[~U]
+sbox=SBox 11|0*10364|
+sbox_tb=11|0*7678|
+testbench_for_sbox=TESTBENCH_FOR_sbox 2||
+

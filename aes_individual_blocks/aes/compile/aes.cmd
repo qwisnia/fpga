@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\MixColums\library.cfg"  -j "c:\My_Designs\MixColums\aes\projlib.cfg"  -d "c:\My_Designs\MixColums\aes\compile"   -work aes  -O3 -e 100 -2002 "c:\My_Designs\MixColums\aes\src\TestBench\aes_TB.vhd" 

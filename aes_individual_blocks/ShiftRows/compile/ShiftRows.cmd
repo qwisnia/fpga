@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\MixColums\library.cfg"  -j "c:\My_Designs\MixColums\ShiftRows\projlib.cfg"  -d "c:\My_Designs\MixColums\ShiftRows\compile"   -work ShiftRows  -O3 -e 100 "c:\My_Designs\MixColums\ShiftRows\src\ShiftRows.vhd" 

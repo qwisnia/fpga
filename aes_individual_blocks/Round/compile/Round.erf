@@ -1,0 +1,6 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available." 
+MESSAGE "File: c:\My_Designs\MixColums\Round\src\TestBench\round_TB.vhd" 
+MESSAGE "Compile Entity "round_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "round_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_round"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]" 

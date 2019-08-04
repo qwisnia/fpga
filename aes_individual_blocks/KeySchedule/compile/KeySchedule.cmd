@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\MixColums\library.cfg"  -j "c:\My_Designs\MixColums\KeySchedule\projlib.cfg"  -d "c:\My_Designs\MixColums\KeySchedule\compile"   -work KeySchedule  -O3 -e 100 -o -2002 "c:\My_Designs\MixColums\KeySchedule\src\KeySchedule.vhd" 

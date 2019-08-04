@@ -1,0 +1,12 @@
+runscript -do "c:\My_Designs\MixColums\SBox\src\default_compile.do"
+acom "$dsn/src/SBox.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\MixColums\SBox\src\SBox.vhd
+# Compile Entity "SBox"
+# Compile Architecture "xilinx_8_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_4_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_2_dual_port_rom" of Entity "SBox"
+# Compile Architecture "xilinx_1_dual_port_rom" of Entity "SBox"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# Design: Design "ShiftRows" has been set as active.
